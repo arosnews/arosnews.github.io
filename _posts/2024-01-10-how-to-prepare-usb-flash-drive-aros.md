@@ -62,4 +62,4 @@ Here you can additionally check *Install Debugging tools and Developer Software*
 
 ![Install](/assets/img/pend16__.jpg)
 
-After the installer finishes copying the files, press Proceed one last time and your USB flash drive with the system is ready. You can now install AROS on real hardware, preferably get a computer from the [recommended list](https://en.wikibooks.org/wiki/Aros/Platforms/x86_Complete_System_HCL#Recommended_hardware).
+After the installer finishes copying the files, press *Proceed* one last time and your USB flash drive with the system is ready. You can now install AROS on real hardware, preferably get a computer from the [recommended list](https://en.wikibooks.org/wiki/Aros/Platforms/x86_Complete_System_HCL#Recommended_hardware).
