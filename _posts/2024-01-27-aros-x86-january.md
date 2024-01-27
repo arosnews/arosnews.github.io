@@ -1,0 +1,136 @@
+---
+layout: post
+title: AROS x86 - January 2024
+subtitle: monthly roundup
+lang: en
+ref: 0124
+---
+
+January was marked by the implementation of a **new C library** in AROS x86. This change is intended to make life easier primarily for AROS developers themselves. The 32-bit version will be more compatible with the 64-bit version, so maintaining two development lines will become easier. In the long run, it is also a step bringing AROS closer to a complete transition to the 64-bit version.
+
+Currently, software compatibility testing is still going on, and some things need to be recompiled. All this means that we can expect a new stable build no sooner than the end of February. In addition, there is a good chance that along with it we will get a slightly refreshed version of the OWB web browser.
+
+I posted a tutorial on the blog about [preparing a USB stick with ABIv0](https://arosnews.github.io/how-to-prepare-usb-flash-drive-aros/). It's done a little differently from other systems, so I believe this tutorial will be useful for beginners.
+
+In the January poll for "Irritating bug of the month", the problem with saving boot parameter settings was chosen.
+
+![Irritating bug of the month](/assets/img/ibotm0124.jpg)
+*Irritating bug of the month - January 2024*
+
+The bug has already been fixed, in the latest build you can configure startup parameters in preferences. If you want to have a say in the order in which the bugs are fixed, I encourage you to register on the forums and take part in the [next vote](https://www.arosworld.org/infusions/forum/viewthread.php?thread_id=1191&pid=3842).
+
+There isn't much in the way of January news in the AROS Archives, but there is one program that is definitely worth a look. **RNOEffects**, written in Hollywood and available for all Amiga NGs, is developing rapidly and can certainly be useful in everyday use. Full list of new programs below.
+
+> ## [Worm Wars](http://archives.aros-exec.org/?function=showfile&file=game/action/wormwars.i386-aros.zip) (v. 9.34)
+> (author: James Jacobs)
+
+This is the AROS version of Worm Wars, a free arcade game by James Jacobs of Amigan Software. Features include: 37 types of objects, 37 types of creatures, 13 types of bonus levels, integrated level editor, up to 4 worms, human or computer control over all worms, saved top score tables, dual keyboard support, level shuffle option, screen mode sensitivity, local support, source code, run on your own or public screen, etc.
+
+Music and joysticks are not currently supported by the AROS port.
+
+![Pintor Web](/assets/img/wormwars.jpg)
+*Worm Wars*
+
+> ## [Sacrificio Pagano](http://archives.aros-exec.org/?function=showfile&file=utility/misc/sacrificiopagano.lha) (v. 2.10)
+> (author: Juan Carlos Herrán Martín)
+
+A simple program for believers in magic ;) Allows you to configure your own altar on your computer screen to make it easier to indulge in magical practices.
+
+Changes in version 2.10 (02-01-2024):
+
+- New graphics (original made with IA's help).
+- New free fonts.
+- Minor improvements.
+- Now the program has pagan wallpaper for pagan desktop.
+
+![Sacrificio Pagano](/assets/img/pagano210.jpg)
+*Sacrificio Pagano*
+
+> ## [Icon Drop](http://archives.aros-exec.org/?function=showfile&file=graphics/icon/icondropx_12-29-23.i386-aros.zip) (v. 1.02)
+> (author: Mike R.)
+
+Icon Drop uses GadTools' small and simple GUI to save icon images to a new target icon.
+
+![Icon Drop](/assets/img/icondrop102.jpg)
+*Icon Drop*
+
+> ## [New Colored Disks](http://archives.aros-exec.org/?function=showfile&file=graphics/icon/new_colored_disks.zip) (v. 1.0)
+> ## [New Flash Disk Icons](http://archives.aros-exec.org/?function=showfile&file=graphics/icon/new_flash_disk_icons.zip) (v. 1.0)
+> ## [New Floppy Icons](http://archives.aros-exec.org/?function=showfile&file=graphics/icon/new_floppy_icons.zip) (v. 1.0)
+> ## [New Ram Disk Icons](http://archives.aros-exec.org/?function=showfile&file=graphics/icon/new_ram_disk_icons.zip) (v. 1.0)
+> (author: Mike R.)
+
+Sets of new Kens Icons v4 style icons.
+
+![Set of New Icons](/assets/img/newicons.jpg)
+*Set of New Icons*
+
+> ## [Image2PDF](http://archives.aros-exec.org/?function=showfile&file=office/dtp/image2pdf.i386-aros.lha) (v. 2.50)
+> (author: Bernd Assenmacher)
+
+A small tool for converting images to PDF. It is primarily used to convert scans taken with, for example, Scandal or Scanquix to PDF documents in specific output formats such as A3, A4, A5, Legal, Letter or ImageSize, but can also be used to convert other image files.
+
+Changes in version 2.50:
+- rearranged GUI to make it more intuitive
+- melted the target requesters to one single target requester
+- added source PDF-file requester to GUI for PDF2Image and PDF2PDF
+- added function "Image2Image" to change the format of images
+- added function "scan file(s)" to determine the attributes of the image(s)
+- added function "rem (dup)" to remove duplicate entries from the listview
+- added function "check" to check the given images if they are valid to process and to clean the listview from unvalid image files    
+- added possibility to scale images to a fixed size
+- added more formats for Image2PDF (B4, B5, US, Executive, Comm10)
+- installer now sets the OS automatically (thanks Daniel ;-))
+- key F1 now opens the guide file as help too
+- updated tooltips
+- optimized output messages
+- fixed a bug where "read source" did not work correctly sometimes 
+- many improvements done "under the hood" ... ;-)
+- 
+![Image2PDF](/assets/img/image2pdf25.jpg)
+*Image2PDF*
+
+> ## [RNOEffects](http://archives.aros-exec.org/?function=showfile&file=graphics/edit/rnoeffects.i386-aros.lha) (v. 2.0)
+> (author: jPV^RNO)
+
+RNOEffects is a simple image processing program with a focus on good batch conversion options, alpha channel based effects, and pixel editing.
+
+Changes in version 2.0:
+- Added the "Pixel editor" tool with configurable pixel drawing options for left, middle, and right mouse buttons
+- Added the "Color picker" tool to show colour information under the mouse pointer and to pick and store multiple colour values temporarily
+- Added the "Area selector" tool which can be used to apply certain effects on a limited area of an image
+- Added the "Toolbox" tool to reduce pull-down menu use
+- Added support for saving images in the palette mode (1-8 bits), optionally with 16 pre-defined palettes including the MagicWB palette
+- Palettes can be saved in IFF ILBM, RGB32, LoadRGB4, and LoadRGB32 formats
+- Palette images can be saved as chunky data
+- Chunky image data and separate palettes can be saved as a C source code
+- Added an option to use an opacity map to apply an effect partially on an image (works with Blur, Contrast, Draw/Brush, Gamma, Modulate, Monochrome, and Tint effects)
+- Added "Chroma key" and "Luma key" effects to make colour ranges transparent
+- Batch converted images can be saved as a video
+- Added MagicWB support for the icon saving
+- Added information about the program state in the window title
+- Added Undo button on effects' windows
+- Function key shortcuts can be used to save images in several formats
+- Added an option to swap the main image with the buffer image
+- The Opacity map effect can use the buffer image as an opacity map
+- Added an option to invert the Opacity map effect
+- Added opacity map examples in the OpacityMaps directory
+- Renamed the "Reduce alpha" effect to "Alter alpha" and added an option to remove the whole alpha channel from an image
+- Background images can be centered in the Background effect
+- Added an option to clear the current image
+- Undo buffer wasn't initialised when loading an image at startup
+- Fixed colour picking with scaled images
+- Fixed Charcoal and Edge effects for images with transparency
+- Better window resizing when loading images
+- Skip arrow key operations if a command key is pressed simultaneously so as not to affect mouse pointer control via the keyboard
+- Arranged effects in an ordered format in the menu - into categories
+- Included JPEG2000, PCX, and TIFF plugins
+- Added support for saving images in JPEG2000 and TIFF formats
+- Select specific image/state to load of icon with multiple images
+- Added a setting to load icon properties and use them in icon saving options
+- Files can be drag'n'dropped into a batch conversion file list
+- Tool windows open at startup if they were open when settings saved
+- Other minor fixes
+
+![RNOEffects](/assets/img/rnoeffects20.jpg)
+*RNOEffects*
