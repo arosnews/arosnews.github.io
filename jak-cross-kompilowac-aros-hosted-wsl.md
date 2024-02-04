@@ -103,8 +103,12 @@ fi
 cd myprojects/arosbuilds/core-linux-x86_64-d/bin/linux-x86_64/AROS
 ./boot/linux/AROSBootstrap -m 1024
 ```
+Żebyś mógł wykonać skrypt, zmień atrybuty stworzonego pliku:
+```
+chmod 755 startaros.sh
+```
 
-Powyższy skrypt do działania wymaga zainstalowania dodatkowych pakietów:
+Powyższy skrypt do działania wymaga też zainstalowania dodatkowych pakietów:
 ```
 sudo apt install net-tools uml-utilities
 ```
