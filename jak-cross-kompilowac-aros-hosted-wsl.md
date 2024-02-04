@@ -145,6 +145,11 @@ Następnie stwórz w nim plik o nazwie x86_64-aros-gcc z następującą zawarto�
 ```
 exec /home/username/myprojects/arosbuilds/toolchain-core-x86_64/x86_64-aros-gcc --sysroot=/home/username/myprojects/arosbuilds/core-linux-x86_64-d/bin/linux-x86_64/AROS/Development "$@"
 ```
+I ustaw mu atrybuty:
+```
+chmod 755 x86_64-aros-gcc
+```
+
 Ostatnim krokiem będzie dopisanie katalogu cross-x86_64-aros do PATH. Żeby to zrobić na stałe otwórz plik **.bashrc**, który znajduje się w twoim katalogu domowym użytkownika i na samym końcu dodaj linijkę:
 
 ```
