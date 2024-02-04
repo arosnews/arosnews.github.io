@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Jak zainstalować AROS hosted
 subtitle: w Windows 10 / 11 z WSL2
 lang: pl
