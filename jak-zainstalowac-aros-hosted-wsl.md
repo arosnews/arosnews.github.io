@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Jak zainstalować AROS hosted
+title: Jak cross-compilować dla AROS
 subtitle: w Windows 10 / 11 z WSL2
 lang: pl
 ref: tutWSLh
 ---
 
-AROSa na Windowsie możesz używać za pomocą wirtualnej maszyny (np. VirtualBoX). W wielu przypadkach bardziej wydajnym i ciekawszym rozwiązaniem może być skorzystanie z portu AROSa hostowanego w systemie Linux. Pod Windowsem jest to możliwe przy użyciu WSL2 (Windows Subsystem for Linux 2).
+Cross-kompilowanie to proces tworzenia oprogramowania na jednym systemie, które jest przeznaczone do uruchamiania na innym systemie. Możemy kompilować oprogramowanie dla AROS korzystając z portu AROSa hostowanego w systemie Linux. Pod Windowsem jest to możliwe przy użyciu WSL2 (Windows Subsystem for Linux 2).
 
 ## Wymagania
 
@@ -99,3 +99,41 @@ cd myprojects/arosbuilds/core-linux-x86_64-d/bin/linux-x86_64/AROS
 
 {: .box-note}
 Jeśli twój interface sieciowy ma inną nazwę niż **eth0**, pamietaj żeby zmienić to w skrypcie.
+
+Kolejnym krokiem będzie skompilowanie contrib, aby mieć do dyspozycji całe AROSowe SDK.
+
+```
+git clone https://github.com/deadwood2/contrib.git contrib
+cd contrib
+git checkout master
+```
+
+Pobrany katalog contrib przenieś do katalogu AROS (tak aby mieć *AROS/contrib*). Następnie przejdź do katalogu *core-linux-x86_64-d* i uruchom:
+```
+make contrib
+```
+
+{: .box-note}
+Jeśli masz wielordzeniowy procesor możesz użyć komendy **make** z parametrem *-j* (np. **"make -j4 contrib"**), aby nieco przyspieszyć proces budowy wykorzystując więcej wątków.
+
+Utwórz katalog *cross-x86_64-aros* na tym samym poziomie co katalogi *AROS* i *core-linux-x86_64-d*.
+```
+mkdir cross-x86_64-aros
+```
+Następnie stwórz w nim plik o nazwie x86_64-aros-gcc z następującą zawartością:
+```
+exec /home/username/myprojects/arosbuilds/toolchain-core-x86_64/x86_64-aros-gcc --sysroot=/home/username/myprojects/arosbuilds/core-linux-x86_64-d/bin/linux-x86_64/AROS/Development "$@"
+```
+Ostatnim krokiem będzie dopisanie katalogu cross-x86_64-aros do PATH. Żeby to zrobić na stałe otwórz plik **.bashrc**, który znajduje się w twoim katalogu domowym użytkownika i na samym końcu dodaj linijkę:
+
+```
+export PATH=$PATH:/home/username/myprojects/arosbuilds/cross-x86_64-aros
+```
+
+{: .box-note}
+Pamiętaj żeby zmienić w ścieżkach *username* na swoją nazwę użytkownika.
+
+Jeśli wszystko poszło dobrze, wpisując **x86_64-aros-gcc** powinieneś mieć działający kompilator.
+```
+x86_64-aros-gcc -c hello.c -o hello
+```
