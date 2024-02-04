@@ -79,7 +79,7 @@ cd core-linux-x86_64-d/bin/linux-x86_64/AROS
 ```
 
 {: .box-note}
-Jeśli chcesz uruchomić AROS z określoną ilocią pamięci użyj parametru *-m*, np, **"-m 1024"** dla 1GB RAM
+Jeśli chcesz uruchomić AROS z określoną ilością pamięci użyj parametru *-m*, np, **"-m 1024"** dla 1GB RAM
 
 ![AROS hosted](/assets/img/aroshosted.jpg)
 *AROS x86_64 w WSL2*
