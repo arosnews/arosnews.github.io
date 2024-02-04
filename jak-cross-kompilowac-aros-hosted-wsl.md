@@ -68,7 +68,11 @@ Po zakończeniu ponownie uruchom skrypt *rebuild.sh*, tym razem wybierz opcję *
 ```
 2) core-linux-x86_64 (DEBUG)
 ```
-W tym momencie AROS jest już zainstalowany. Możesz go uruchomić wykonując plik *AROSBootstrap*
+
+{: .box-note}
+W czasie kompilacji wymagane jest połączenie sieciowe, gdyż poberane są z sieci dodatkowe źródła.
+
+Po zakończenu operacji AROS jest już zainstalowany. Możesz go uruchomić wykonując plik *AROSBootstrap*
 ```
 cd core-linux-x86_64-d/bin/linux-x86_64/AROS
 ./boot/linux/AROSBootstrap
@@ -76,6 +80,9 @@ cd core-linux-x86_64-d/bin/linux-x86_64/AROS
 
 {: .box-note}
 Jeśli chcesz uruchomić AROS z określoną ilocią pamięci użyj parametru *-m*, np, **"-m 1024"** dla 1GB RAM
+
+![AROS hosted](/assets/img/networkhosted.jpg)
+*AROS x86_64 w WSL2*
 
 Po stronie Ubuntu możesz użyć skryptu, który skonfiguruje połączenie sieciowe dla AROS. Możesz utworzyć w swoim katalogu domowym skrypt **startaros.sh**, który ustawi sieć, a następnie uruchomi AROS z 1GB pamięci RAM:
 
@@ -99,6 +106,11 @@ cd myprojects/arosbuilds/core-linux-x86_64-d/bin/linux-x86_64/AROS
 
 {: .box-note}
 Jeśli twój interface sieciowy ma inną nazwę niż **eth0**, pamietaj żeby zmienić to w skrypcie.
+
+Po stronie AROS w *Prefs/Network* wybierz interface **tap.device** i ustaw ręcznie adresy IP tak jak na poniższym screenie:
+
+![Konfiguracja sieci](/assets/img/networkhosted.jpg)
+*Konfiguracja sieci w AROS hosted*
 
 Kolejnym krokiem będzie skompilowanie contrib, aby mieć do dyspozycji całe AROSowe SDK.
 
