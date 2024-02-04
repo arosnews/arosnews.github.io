@@ -6,7 +6,7 @@ lang: pl
 ref: tutWSLh
 ---
 
-AROSa na Windowsie możesz używać za pomocą wirtualnej maszyny (np. VirtualBoX). W wielu przypadkach bardziej wydajnym i ciekawszym rozwiązaniem może być skorzystanie z portu AROSa hostowanego do systemu Linux. Pod Windowsem jest to możliwe przy użyciu WSL2 (Windows Subsystem for Linux 2).
+AROSa na Windowsie możesz używać za pomocą wirtualnej maszyny (np. VirtualBoX). W wielu przypadkach bardziej wydajnym i ciekawszym rozwiązaniem może być skorzystanie z portu AROSa hostowanego w systemie Linux. Pod Windowsem jest to możliwe przy użyciu WSL2 (Windows Subsystem for Linux 2).
 
 ## Wymagania
 
