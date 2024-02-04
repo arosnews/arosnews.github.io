@@ -6,7 +6,7 @@ lang: pl
 ref: tutWSLh
 ---
 
-Cross-kompilowanie to proces tworzenia oprogramowania na jednym systemie, które jest przeznaczone do uruchamiania na innym systemie. Możemy kompilować oprogramowanie dla AROS korzystając z portu AROSa hostowanego w systemie Linux. Pod Windowsem jest to możliwe przy użyciu WSL2 (Windows Subsystem for Linux 2).
+Cross-kompilowanie to proces tworzenia oprogramowania na jednym systemie, które jest przeznaczone do uruchamiania na innym systemie. Możesz kompilować oprogramowanie dla AROS korzystając z portu AROSa hostowanego w systemie Linux. Pod Windowsem jest to możliwe przy użyciu WSL2 (Windows Subsystem for Linux 2).
 
 ## Wymagania
 
