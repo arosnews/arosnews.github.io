@@ -116,7 +116,7 @@ The above script also requires installing additional packages to work:
 sudo apt install net-tools uml-utilities
 ```
 
-On the AROS side, in *Prefs/Network*, select the **tap.device** interface and manually set the IP addresses as in the following screen shot:
+On the AROS side, in *Prefs/Network*, select the **tap.device** interface and manually set the IP addresses as in the following screenshot:
 
 ![Network configuration](/assets/img/networkhosted.jpg)
 *Network configuration in AROS WSL2 hosted*
