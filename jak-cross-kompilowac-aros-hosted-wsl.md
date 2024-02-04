@@ -103,6 +103,10 @@ fi
 cd myprojects/arosbuilds/core-linux-x86_64-d/bin/linux-x86_64/AROS
 ./boot/linux/AROSBootstrap -m 1024
 ```
+
+{: .box-note}
+Jeśli twój interface sieciowy ma inną nazwę niż **eth0**, pamietaj żeby zmienić to w skrypcie.
+
 Żebyś mógł wykonać skrypt, zmień atrybuty stworzonego pliku:
 ```
 chmod 755 startaros.sh
@@ -112,9 +116,6 @@ Powyższy skrypt do działania wymaga też zainstalowania dodatkowych pakietów:
 ```
 sudo apt install net-tools uml-utilities
 ```
-
-{: .box-note}
-Jeśli twój interface sieciowy ma inną nazwę niż **eth0**, pamietaj żeby zmienić to w skrypcie.
 
 Po stronie AROS w *Prefs/Network* wybierz interface **tap.device** i ustaw ręcznie adresy IP tak jak na poniższym screenie:
 
