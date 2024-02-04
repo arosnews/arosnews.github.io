@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jak cross-compilować dla AROS
+title: Jak cross-kompilować dla AROS
 subtitle: w Windows 10 / 11 z WSL2
 lang: pl
 ref: tutWSLh
