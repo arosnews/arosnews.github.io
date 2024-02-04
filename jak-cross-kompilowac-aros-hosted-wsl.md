@@ -70,7 +70,7 @@ Po zakończeniu ponownie uruchom skrypt *rebuild.sh*, tym razem wybierz opcję *
 ```
 
 {: .box-note}
-W czasie kompilacji wymagane jest połączenie sieciowe, gdyż poberane są z sieci dodatkowe źródła.
+W czasie kompilacji wymagane jest połączenie sieciowe, gdyż pobierane są z sieci dodatkowe źródła.
 
 Po zakończenu operacji AROS jest już zainstalowany. Możesz go uruchomić wykonując plik *AROSBootstrap*
 ```
