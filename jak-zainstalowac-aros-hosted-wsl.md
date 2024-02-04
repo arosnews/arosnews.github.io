@@ -74,13 +74,8 @@ cd core-linux-x86_64-d/bin/linux-x86_64/AROS
 ./boot/linux/AROSBootstrap
 ```
 
-## Instalacja Odyssey Web Browser
-
-Ściągnij archiwum z OWB:  
-[https://axrt.org/development/OWB-1.25-20231230.x86_64-aros.zip](https://axrt.org/development/OWB-1.25-20231230.x86_64-aros.zip)  
-Przejdź do katalogu *core-linux-x86_64-d\bin\linux-x86_64\AROS*. Znajduje się tutaj cała struktura katalgów AROSa. Możesz tu utworzyć katalog *Applications* i rozpakować do niego archiwum OWB. Możesz to zrobić zarówno od strony WSL2/Ubuntu jak i od strony Windows. 
-
-Aby **Odyssey Web Browser** działał prawidłowo AROS potrzeuje 1GB pamięci RAM, więc należy uruchamiać go z parametrem **"-m 1024"**. Potrzebujesz też działającego internetu. Po stronie AROS w *Prefs/Network* wybierz interface **tap.device** i ustaw adresy IP tak jak na poniższych screenach.
+{: .box-note}
+Jeśli chcesz uruchomić AROS z określoną ilocią pamięci użyj parametru *-m*, np, **"-m 1024"** dla 1GB RAM
 
 Po stronie Ubuntu możesz użyć skryptu, który skonfiguruje połączenie sieciowe dla AROS. Możesz utworzyć w swoim katalogu domowym skrypt **startaros.sh**, który ustawi sieć, a następnie uruchomi AROS z 1GB pamięci RAM:
 
