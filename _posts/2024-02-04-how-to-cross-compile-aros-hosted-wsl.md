@@ -161,5 +161,5 @@ Remember to change *username* in the paths to your username.
 
 If all went well, by typing **x86_64-aros-gcc** you should have a working compiler.
 ```
-x86_64-aros-gcc -c hello.c -o hello
+x86_64-aros-gcc -o hello hello.c
 ```
