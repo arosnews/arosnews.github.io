@@ -162,5 +162,5 @@ Pamiętaj żeby zmienić w ścieżkach *username* na swoją nazwę użytkownika.
 
 Jeśli wszystko poszło dobrze, wpisując **x86_64-aros-gcc** powinieneś mieć działający kompilator.
 ```
-x86_64-aros-gcc -c hello.c -o hello
+x86_64-aros-gcc -o hello hello.c
 ```
