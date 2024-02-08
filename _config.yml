@@ -21,7 +21,7 @@ author: Andrzej “retrofaza” Subocz
 
 navbar-links:
   AROS Distributions:
-    - ABIv0: "https://github.com/deadw00d/AROS/releases/tag/ABIv0_20211128-1"
+    - ABIv0: "https://github.com/deadwood2/AROS/releases/tag/ABIv0_20220318-1"   
     - AROS One x86: "https://sites.google.com/view/arosone"
     - Tiny AROS: "https://tinyaros.flazio.com"
   AROS Sites:  
