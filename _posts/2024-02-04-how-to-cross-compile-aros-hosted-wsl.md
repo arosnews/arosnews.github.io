@@ -69,7 +69,8 @@ When finished, run the *rebuild.sh* script again, this time select *core-linux-x
 ```
 
 {: .box-note}
-A network connection is required during compilation, as additional sources are downloaded from the network.
+**A network connection is required during compilation, as additional sources are downloaded from the network.**  
+If there is a network problem during downloading, the download will fail. The first option is to repeat the last step of the process and maybe the download will work (if the network problem was temporary). If that doesn’t work, look at the log and you will see the URLs from which the build process tries to download files. Use this URL to download the files manually through the browser, and then place the files in the *portssources* directory. It may also be necessary to delete some temporary files in the *portssources* directory with names similar to the downloaded ones (files with the *.fetch extension).
 
 Once the operation is complete, AROS is already installed. You can run it by executing the *AROSBootstrap* file.
 ```
