@@ -70,7 +70,8 @@ Po zakończeniu ponownie uruchom skrypt *rebuild.sh*, tym razem wybierz opcję *
 ```
 
 {: .box-note}
-W czasie kompilacji wymagane jest połączenie sieciowe, gdyż pobierane są z sieci dodatkowe źródła.
+W czasie kompilacji wymagane jest połączenie sieciowe, gdyż pobierane są z sieci dodatkowe źródła.  
+Jeśli podczas pobierania wystąpi problem z siecią, pobieranie nie powiedzie się. Pierwszą opcją jest powtórzenie ostatniego kroku procesu i być może pobieranie będzie działać (jeśli problem z siecią był tymczasowy). Jeśli to nie zadziała, zajrzyj do dziennika i zobaczysz tam adresy URL, z których proces kompilacji próbuje pobrać pliki. Użyj tego adresu URL, aby pobrać pliki ręcznie przez przeglądarkę, a następnie umieść pliki w katalogu *portssources*. Może być również konieczne usunięcie niektórych plików tymczasowych w katalogu *portssources* o nazwach podobnych do pobranych (pliki z rozszerzeniem *.fetch).
 
 Po zakończenu operacji AROS jest już zainstalowany. Możesz go uruchomić wykonując plik *AROSBootstrap*
 ```
