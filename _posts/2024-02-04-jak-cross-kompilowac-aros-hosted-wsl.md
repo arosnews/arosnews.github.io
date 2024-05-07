@@ -165,3 +165,72 @@ Jeśli wszystko poszło dobrze, wpisując **x86_64-aros-gcc** powinieneś mieć 
 ```
 x86_64-aros-gcc -o hello hello.c
 ```
+
+{: .box-success}
+Jeśli chcesz zainstalować wersję i386, musisz zmodyfikować niektóre komendy. Zacznij od aktualizacji wymaganych pakietów:
+```
+sudo dpkg --add-architecture i386
+```
+```
+sudo apt update && sudo apt upgrade
+```
+```
+sudo apt install subversion git-core gcc g++ make gawk bison flex bzip2 netpbm autoconf automake libx11-dev libxext-dev libc6-dev liblzo2-dev libxxf86vm-dev libxxf86vm-dev:i386 libpng-dev gcc-multilib libsdl1.2-dev byacc python3-mako libxcursor-dev libxcursor1:i386 cmake zsh mingw-w64 genisoimage dh-make unzip
+```
+Sklonuj repozytorium AROS z githuba:
+```
+$ mkdir myrepo
+$ cd myrepo
+$ git clone https://github.com/deadwood2/AROS.git AROS
+$ cd AROS
+$ git checkout alt-abiv0
+$ cd ..
+$ cp ./AROS/scripts/rebuild.sh .
+```
+Uruchom skrypt *rebuild.sh*:
+```
+./rebuild.sh
+```
+Wybierz opcję *toolchain-alt-abiv0-i386*
+```
+1) toolchain-alt-abiv0-i386
+```
+Po zakończeniu ponownie uruchom skrypt *rebuild.sh*, tym razem wybierz opcję *alt-abiv0-linux-i386 (DEBUG)*
+```
+3) alt-abiv0-linux-i386 (DEBUG)
+```
+Po zakończenu operacji AROS jest już zainstalowany. Możesz go uruchomić wykonując plik *AROSBootstrap*
+```
+cd alt-abiv0-linux-i386-d/bin/linux-i386/AROS
+./Arch/linux/AROSBootstrap
+```
+Kompilacja contrib:
+
+```
+git clone https://github.com/deadwood2/contrib.git contrib
+cd contrib
+git checkout alt-abiv0
+```
+
+Pobrany katalog contrib przenieś do katalogu AROS (tak aby mieć *AROS/contrib*). Następnie przejdź do katalogu *alt-abiv0-linux-i386-d* i uruchom:
+```
+make contrib
+```
+Utwórz katalog *cross-i386-aros* na tym samym poziomie co katalogi *AROS* i *alt-abiv0-linux-i386-d*.
+```
+mkdir cross-i386-aros
+```
+Następnie stwórz w nim plik o nazwie i386-aros-gcc z następującą zawartością:
+```
+exec /home/username/myrepo/toolchain-alt-abiv0-i386/i386-aros-gcc --sysroot=/home/username/myrepo/alt-abiv0-linux-i386-d/bin/linux-i386/AROS/Development "$@"
+```
+I ustaw mu atrybuty:
+```
+chmod 755 i386-aros-gcc
+```
+
+Ostatnim krokiem będzie dopisanie katalogu cross-i386-aros do PATH. Żeby to zrobić na stałe otwórz plik **.bashrc**, który znajduje się w twoim katalogu domowym użytkownika i na samym końcu dodaj linijkę:
+
+```
+export PATH=$PATH:/home/username/myrepo/cross-i386-aros
+```
