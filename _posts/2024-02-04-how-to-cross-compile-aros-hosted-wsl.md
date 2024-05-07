@@ -183,7 +183,7 @@ $ cd myrepo
 $ git clone https://github.com/deadwood2/AROS.git AROS
 $ cd AROS
 $ git checkout alt-abiv0
-$ cd ...
+$ cd ..
 $ cp ./AROS/scripts/rebuild.sh .
 ```
 Run the *rebuild.sh* script:
