@@ -164,6 +164,7 @@ If all went well, by typing **x86_64-aros-gcc** you should have a working compil
 ```
 x86_64-aros-gcc -o hello hello.c
 ```
+
 {: .box-success}
 If you want to install the i386 version, you need to modify some commands. Start by updating the required packages:
 ```
