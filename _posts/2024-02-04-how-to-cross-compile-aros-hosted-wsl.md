@@ -174,7 +174,7 @@ sudo dpkg --add-architecture i386
 sudo apt update && sudo apt upgrade
 ```
 ```
-sudo apt install subversion git-core gcc g++ make gawk bison flex bzip2 netpbm autoconf automake libx11-dev libxext-dev libc6-dev liblzo2-dev libxxf86vm-dev libxxf86vm-dev:i386 libpng-dev gcc-multilib libsdl1. 2-dev byacc python3-mako libxcursor-dev libxcursor1:i386 cmake zsh mingw-w64 genisoimage dh-make unzip
+sudo apt install subversion git-core gcc g++ make gawk bison flex bzip2 netpbm autoconf automake libx11-dev libxext-dev libc6-dev liblzo2-dev libxxf86vm-dev libxxf86vm-dev:i386 libpng-dev gcc-multilib libsdl1.2-dev byacc python3-mako libxcursor-dev libxcursor1:i386 cmake zsh mingw-w64 genisoimage dh-make unzip
 ```
 Clone the AROS repository from github:
 ```
