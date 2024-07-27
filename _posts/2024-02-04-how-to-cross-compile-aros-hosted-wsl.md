@@ -3,6 +3,7 @@ layout: post
 title: How to cross-compile for AROS
 subtitle: on Windows 10 / 11 with WSL2
 lang: en
+tag: tutorial
 ref: tutWSLcross
 ---
 
