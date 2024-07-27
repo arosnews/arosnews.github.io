@@ -3,6 +3,7 @@ layout: post
 title: How to change System language
 subtitle: in AROS ABIv0 32-bit
 lang: en
+tag: tutorial
 ref: tutL
 ---
 
