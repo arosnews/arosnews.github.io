@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: AMIGA Research Operating System
+title: AROS Research Operating System
 
 # Your name to show in the footer
 author: Andrzej “retrofaza” Subocz
@@ -20,11 +20,11 @@ author: Andrzej “retrofaza” Subocz
 ###############################################
 
 navbar-links:
-  AROS Distributions:
+  Distributions:
     - ABIv0: "https://github.com/deadwood2/AROS/releases/tag/ABIv0_20220318-1"   
     - AROS One x86: "https://sites.google.com/view/arosone"
     - Tiny AROS: "http://www.tinyaros.it"
-  AROS Sites:  
+  Sites:  
     - AROS World: "https://www.arosworld.org"
     - AROS Archives: "http://archives.aros-exec.org"
     - AROS Wiki: "https://en.wikibooks.org/wiki/Aros"
