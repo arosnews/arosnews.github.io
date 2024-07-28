@@ -50,7 +50,7 @@ Kliknij prawym klawiszem myszy na właściwości pliku **startaros.sh** i w zak�
 
 ![hosted11](/assets/img/hosted11.png)
 
-Dodaj na pulpicie ikonę uruchamiającą AROSa. Kliknij prawym klawiszem myszy na pulpicie i wybierz opcję *Create a new launcher here...* W polu **command** wpisz */home/AROS/username/boot/linux/startaros.sh* (pamiętaj o zmianie w tej ścieżce nazwy użytkownika na własną). Zaznacz pole "Launch in terminal" i wciśnij "OK".
+Dodaj na pulpicie ikonę uruchamiającą AROSa. Kliknij prawym klawiszem myszy na pulpicie i wybierz opcję *Create a new launcher here...* W polu **Command** wpisz */home/AROS/username/boot/linux/startaros.sh* (pamiętaj o zmianie w tej ścieżce nazwy użytkownika na własną). Zaznacz pole "Launch in terminal" i wciśnij "OK".
 
 ![hosted12](/assets/img/hosted12.png)
 
