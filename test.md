@@ -6,31 +6,47 @@ lang: pl
 ref: tutWSLh
 ---
 
-Do zainstalowania systemu AROS w wersji hostowanej przez system linuks, użyjemy najnowszej dystrybucji Linux Mint 22 "Willma" (Cinnamon Edition). Upewnij się w Update Manager, że system jest w pełni aktualny. 
+Do zainstalowania systemu **AROS** w wersji hostowanej przez system linuks, użyjemy najnowszej dystrybucji **Linux Mint 22 "Willma" (Cinnamon Edition)**. Upewnij się w **Update Manager**, że system jest w pełni aktualny. 
 
 ![hosted1](/assets/img/hosted1.png)
 
-Uruchom Software Manager i doinstaluj pakiet Uml-utilities.
+Uruchom **Software Manager** i doinstaluj pakiet **Uml-utilities**.
 
 ![hosted2](/assets/img/hosted2.png)
 
-Korzystając z linuksowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z AROS oraz OWB.
+Korzystając z linuksowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z **AROS** oraz **OWB**.
 
 ![hosted4](/assets/img/hosted4.png)
 
+Wypakuj z archiwum katalog AROS do /home/username/
+
 ![hosted5](/assets/img/hosted5.png)
+
+Archwum z OWB wypakuj w dowolne miejsce w strukturze katalogów AROS. Ja wypakowałem do AROS/Extras/Networking/Apps/ i zmieniłem nazwę katalogu z owb-x86_64 na OWB.
 
 ![hosted6](/assets/img/hosted6.png)
 
+Skopiuj do AROS/boot/linux/ plik **startaros.sh**, który zawiera skrypt sieciowy po stronie linuksa i uruchamia AROSa.
+
 ![hosted7](/assets/img/hosted7.png)
+
+Otwórz plik w edytorze tekstu i zmień nazwy interfejsów sieciowych na takie, które występują w twoim systemie. Nakońcu skrypu w ścieżce dostępu do pliku zmień nazwę użytkownika na własną.
 
 ![hosted8](/assets/img/hosted8.png)
 
+Aby sprawdzić nazwy swoich interfejsów sieciowych uruchom **Advanced Network Configuration**.
+
 ![hosted9](/assets/img/hosted9.png)
+
+Zaznacz nazwę połaczenia sieciowego i kliknij w ikonę ustawień. W polu *Device* znajduje się nazwa interfejsu sieciowego. W moim przypadku karta wifi ma nazwę **wlp2s0**, a karta ethernet **eno1**. U ciebie te nazwy mogą być inne. Pamiętaj, aby poprawnie wpisać je do skryptu.
 
 ![hosted10](/assets/img/hosted10.png)
 
+Kliknij prawym klawiszem myszy na właściwości pliku **startaros.sh** i w zakładce *Permissions* zaznacz pole *Allow executing file as program*.
+
 ![hosted11](/assets/img/hosted11.png)
+
+Dodaj na pulpicie ikonę uruchamiającą AROSa. Kliknij prawym klawiszem myszy na pulpicie i wybierz opcję *Create a new launcher here...* W polu **command" wpisz */home/AROS/username/boot/linux/startaros.sh* (pamiętaj o zmianie w tej ścieżce nazwy użytkownika na własną).
 
 ![hosted12](/assets/img/hosted12.png)
 
