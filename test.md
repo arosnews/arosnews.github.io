@@ -73,7 +73,7 @@ Jeśli wszystko skonfigurowałeś poprawnie i internet dziala, możesz teraz uru
 
 ![hosted14](/assets/img/hosted14.png)
 
-Możesz teraz cieszyć się OWB na swoim nowoczesnym sprzęcie. Zapraszam na forum AROS World, gdzie możesz zadać dodatkowe pytania na temat użytkowania AROSa i OWB. Możesz też tam zgłaszać napotkane błędy w działaniu.
+Możesz teraz cieszyć się OWB na swoim nowoczesnym sprzęcie. Zapraszam na forum **[AROS World](https://arosworld.org)**, gdzie możesz zadać dodatkowe pytania na temat użytkowania AROSa i OWB. Możesz też tam zgłaszać napotkane błędy w działaniu.
 
 ![hosted15](/assets/img/hosted15.png)
 
