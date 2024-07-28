@@ -58,6 +58,10 @@ Rozmiar pozostałych czcionek i inne ustawienia: *System/Prefs/Zune*
 
 ![hosted13](/assets/img/hosted13.png)
 
+Istotne są ustawienia sieciowe po stronie AROSa. Ustaw je w *System/Prefs/Network* dokładnie tak jak na poniższym screenie:
+
+![networkhosted](/assets/img/networkhosted.jpg)
+
 ![hosted14](/assets/img/hosted14.png)
 
 ![hosted15](/assets/img/hosted15.png)
