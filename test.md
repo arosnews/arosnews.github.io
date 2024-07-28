@@ -70,7 +70,7 @@ Przetestuj działanie internetu. Uruchom *System/System/Shell* i wykonaj polecen
 
 ![ping](/assets/img/ping.png)
 
-Jeśli wszystko skonfigurowałeś poprawnie i internet dziala, możesz teraz uruchomić Oddysey Web Browser. Pamiętaj, że pierwsze uruchomienie OWB trwa dłużej niż zwykle, gdyż pobierane są w tym czasie czcionki.
+Jeśli wszystko skonfigurowałeś poprawnie i internet działa, możesz teraz uruchomić Oddysey Web Browser. Pamiętaj, że pierwsze uruchomienie OWB trwa dłużej niż zwykle, gdyż pobierane są w tym czasie czcionki.
 
 ![hosted14](/assets/img/hosted14.png)
 
