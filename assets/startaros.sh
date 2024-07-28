@@ -11,5 +11,5 @@ if [ "$NETON" = "" ]; then
     sudo sh -c "echo 1 > /proc/sys/net/ipv4/ip_forward"
 fi
 
-cd /home/rfz/AROS/boot/linux/
+cd ~/AROS/boot/linux/
 ./AROSBootstrap -m 1024
