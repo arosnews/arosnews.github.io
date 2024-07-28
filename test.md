@@ -30,7 +30,7 @@ Skopiuj do *AROS/boot/linux/* plik **startaros.sh**, który zawiera skrypt sieci
 
 ![hosted7](/assets/img/hosted7.png)
 
-Otwórz plik w edytorze tekstu i zmień nazwy interfejsów sieciowych na takie, które występują w twoim systemie. Nakońcu skrypu w ścieżce dostępu do pliku zmień nazwę użytkownika na własną.
+Otwórz plik w edytorze tekstu i zmień nazwy interfejsów sieciowych na takie, które występują w twoim systemie. Na końcu skrypu, w ścieżce dostępu do pliku, zmień nazwę użytkownika na własną.
 
 ![hosted8](/assets/img/hosted8.png)
 
