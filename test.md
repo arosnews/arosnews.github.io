@@ -29,7 +29,7 @@ Archwum z OWB wypakuj w dowolne miejsce w strukturze katalogów AROS. Ja wypakow
 Skopiuj do *AROS/boot/linux/* plik **startaros.sh**, który zawiera skrypt sieciowy po stronie linuksa i uruchamia AROSa.
 
 Pobierz plik:  
-[startaros.sh](/assets/startaros.sh)
+[startaros.sh](/assets/startaros.sh "download")
 
 ![hosted7](/assets/img/hosted7.png)
 
