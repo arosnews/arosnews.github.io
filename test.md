@@ -6,73 +6,35 @@ lang: pl
 ref: tutWSLh
 ---
 
-AROSa na Windowsie możesz używać za pomocą wirtualnej maszyny (np. VirtualBoX). W wielu przypadkach bardziej wydajnym i ciekawszym rozwiązaniem może być skorzystanie z portu AROSa hostowanego do systemu Linux. Pod Windowsem jest to możliwe przy użyciu WSL2 (Windows Subsystem for Linux 2).
+![hosted1](/assets/img/hosted1.png)
 
-## Wymagania
+![hosted2](/assets/img/hosted2.png)
 
-Aby zainstalować WSL2 potrzebujesz:
-- System operacyjny Windows 10 May 2020 (2004) lub nowszy
-- Komputer wspierający Hyper-V Virtualization
-- Zainstalowany sterownik dla vGPU
+![hosted3](/assets/img/hosted3.png)
 
-{: .box-note}
-Aby uruchamiać aplikacje GUI w systemie Linux, należy najpierw zainstalować poniższy sterownik pasujący do systemu. Umożliwi to korzystanie z wirtualnego 
-procesora graficznego (vGPU), dzięki czemu można korzystać ze sprzętowej akceleracji renderowania OpenGL.  
-[Sterownik GPU Intel](https://www.intel.com/content/www/us/en/download/19344/intel-graphics-windows-dch-drivers.html)  
-[Sterownik GPU AMD](https://www.amd.com/en/support)  
-[Sterownik GPU NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  
-  
-## Instalacja WSL2
+![hosted4](/assets/img/hosted4.png)
 
-Otwórz *Wiersz polecenia* z uprawnieniami administratora i wpisz:
-```
-wsl --install -d ubuntu-22.04
-```
-Po zakończeniu uruchom ponownie komputer. Zaloguj się do systemu Windows, a wiersz polecenia otworzy się ponownie. Tym razem zostaniesz przeprowadzony przez konfigurację Ubuntu za pomocą nazwy użytkownika i hasła (nie muszą one być takie same jak nazwa użytkownika i hasło systemu Windows).
+![hosted5](/assets/img/hosted5.png)
 
-Teraz możesz uruchomić aplikację *Ubuntu* z menu Start, aby rozpocząć, lub zainstalować aplikację *Microsoft Terminal*.
+![hosted6](/assets/img/hosted6.png)
 
-Aby zaktualizować pakiety w twoim świeżo zainstalowanym Ubuntu wpisz jeszcze polecenie:
-```
-sudo apt update && sudo apt upgrade
-```
+![hosted7](/assets/img/hosted7.png)
 
-{: .box-note}
-Od strony Windows masz łatwy dostęp do systemu plików Ubuntu wpisując w Eksploratorze plików **\\\wsl$\Ubuntu-22.04**
+![hosted8](/assets/img/hosted8.png)
 
-## Instalacja AROS hosted x86_64
+![hosted9](/assets/img/hosted9.png)
 
-Zainstaluj wszystkie potrzebne pakiety. Możesz to zrobić jedną komendą:
-```
-sudo apt install git gcc g++ make gawk bison flex bzip2 netpbm autoconf automake libx11-dev libxext-dev libc6-dev liblzo2-dev libxxf86vm-dev libpng-dev gcc-multilib libsdl1.2-dev byacc python3-mako libxcursor-dev cmake genisoimage dh-make unzip
-```
-Na potrzeby tej instalacji załóż w swoim katalogu użytkownika w Ubuntu katalog *myprojects*, a w nim katalog *arosbuilds*. Następnie sklonuj repozytorium AROS z githuba **deadwood**'a i skopiuj plik *rebuild.sh* z katalogu *AROS* do katalogu *arosbuilds*. Poniżej ciąg komend którymi to zrobisz:
+![hosted10](/assets/img/hosted10.png)
 
-```
-mkdir myprojects
-cd myprojects
-mkdir arosbuilds
-cd arosbuilds
-git clone https://github.com/deadwood2/AROS.git AROS
-cp ./AROS/scripts/rebuild.sh .
-```
-Uruchom skrypt *rebuild.sh*:
-```
-./rebuild.sh
-```
-Wybierz opcję *toolchain-core-x86_64*
-```
-1) toolchain-core-x86_64
-```
-Po zakończeniu ponownie uruchom skrypt *rebuild.sh*, tym razem wybierz opcję *core-linux-x86_64 (DEBUG)*
-```
-2) core-linux-x86_64 (DEBUG)
-```
-W tym momencie AROS jest już zainstalowany. Możesz go uruchomić wykonując plik *AROSBootstrap*
-```
-cd core-linux-x86_64-d/bin/linux-x86_64/AROS
-./boot/linux/AROSBootstrap
-```
+![hosted11](/assets/img/hosted11.png)
+
+![hosted12](/assets/img/hosted12.png)
+
+![hosted13](/assets/img/hosted13.png)
+
+![hosted14](/assets/img/hosted14.png)
+
+![hosted15](/assets/img/hosted15.png)
 
 ## Instalacja Odyssey Web Browser
 
