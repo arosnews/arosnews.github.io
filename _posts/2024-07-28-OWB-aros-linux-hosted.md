@@ -51,7 +51,7 @@ Right-click on the properties of the **startaros.sh** file and in the *Permissio
 
 ![hosted11](/assets/img/hosted11.png)
 
-Add an AROS launcher icon to your desktop. Right-click on the desktop and select *Create a new launcher here...* In the **command** field, type */home/AROS/username/boot/linux/startaros.sh* (remember to change the username in this path to your own). Check the “Launch in terminal” box and press “OK”.
+Add an AROS launcher icon to your desktop. Right-click on the desktop and select *Create a new launcher here...* In the **Command** field, type */home/AROS/username/boot/linux/startaros.sh* (remember to change the username in this path to your own). Check the “Launch in terminal” box and press “OK”.
 
 ![hosted12](/assets/img/hosted12.png)
 
