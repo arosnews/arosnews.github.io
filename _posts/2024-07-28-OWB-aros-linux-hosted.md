@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Oddysey Web Browser on AROS linux hosted
 subtitle: installation manual
 tag: tutorial
