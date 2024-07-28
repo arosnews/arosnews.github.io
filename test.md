@@ -14,9 +14,7 @@ Uruchom Software Manager i doinstaluj pakiet Uml-utilities.
 
 ![hosted2](/assets/img/hosted2.png)
 
-
-
-![hosted3](/assets/img/hosted3.png)
+Korzystając z linuksowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z AROS oraz OWB.
 
 ![hosted4](/assets/img/hosted4.png)
 
