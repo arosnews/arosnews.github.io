@@ -18,15 +18,15 @@ Korzystając z linuksowej przeglądarki ściągnij ze strony [https://axrt.org/d
 
 ![hosted4](/assets/img/hosted4.png)
 
-Wypakuj z archiwum katalog AROS do /home/username/
+Wypakuj z archiwum katalog AROS do /home/username/ (gdzie *"username"* to twoja nazwa użytkownika w katalogu domowym).
 
 ![hosted5](/assets/img/hosted5.png)
 
-Archwum z OWB wypakuj w dowolne miejsce w strukturze katalogów AROS. Ja wypakowałem do AROS/Extras/Networking/Apps/ i zmieniłem nazwę katalogu z owb-x86_64 na OWB.
+Archwum z OWB wypakuj w dowolne miejsce w strukturze katalogów AROS. Ja wypakowałem do *AROS/Extras/Networking/Apps/* i zmieniłem nazwę katalogu z **owb-x86_64** na **OWB**.
 
 ![hosted6](/assets/img/hosted6.png)
 
-Skopiuj do AROS/boot/linux/ plik **startaros.sh**, który zawiera skrypt sieciowy po stronie linuksa i uruchamia AROSa.
+Skopiuj do *AROS/boot/linux/* plik **startaros.sh**, który zawiera skrypt sieciowy po stronie linuksa i uruchamia AROSa.
 
 ![hosted7](/assets/img/hosted7.png)
 
