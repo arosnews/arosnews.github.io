@@ -34,7 +34,7 @@ Pobierz plik:
 
 ![hosted7](/assets/img/hosted7.png)
 
-Otwórz plik w edytorze tekstu i zmień nazwy interfejsów sieciowych na takie, które występują w twoim systemie. Na końcu skrypu, w ścieżce dostępu do pliku, zmień nazwę użytkownika na własną.
+Otwórz plik w edytorze tekstu i zmień nazwy interfejsów sieciowych na takie, które występują w twoim systemie.
 
 ![hosted8](/assets/img/hosted8.png)
 
