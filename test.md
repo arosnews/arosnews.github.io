@@ -64,7 +64,7 @@ Rozmiar pozostałych czcionek i inne ustawienia: *System/Prefs/Zune*
 
 Istotne są ustawienia sieciowe po stronie AROSa. Ustaw je w *System/Prefs/Network* dokładnie tak jak na poniższym screenie:
 
-![networkhosted](/assets/img/networkhosted.jpg)
+![networkhosted](/assets/img/network.png)
 
 Przetestuj działanie internetu. Uruchom *System/System/Shell* i wykonaj polecenie **ping**, np. "ping google.com". 
 
