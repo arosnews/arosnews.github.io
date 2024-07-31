@@ -10,11 +10,11 @@ Do zainstalowania Oddysey Web Browser pod linuksem użyjemy najnowszej dystrybuc
 
 ![hosted1](/assets/img/hosted1.png)
 
-Korzystając z linuksowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z pakietem **LibAXRT**, bibliotekami **OWB-Libs**, przeglądarką **OWB** i launcherem dla OWB **StartOWB**.
+Korzystając z linuksowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z pakietem **LibAxRT**, bibliotekami **OWB-Libs**, przeglądarką **OWB** i launcherem dla OWB **StartOWB**.
 
 ![axrt1](/assets/img/axrt1.png)
 
-W pierwszej kolejności zainstaluj pakiet **LibAXRT**.
+W pierwszej kolejności zainstaluj pakiet **LibAxRT**.
 
 ![axrt2](/assets/img/axrt2.png)
 
@@ -22,13 +22,12 @@ Wejdź we właściwości pliku **StartOWB** i w zakładce *Permissions* zaznacz 
 
 ![axrt3](/assets/img/axrt3.png)
 
-Skopiuj do *AROS/boot/linux/* plik **startaros.sh**, który zawiera skrypt sieciowy po stronie linuksa i uruchamia AROSa.
+Po uruchomieniu **StartOWB** w katalogu domowym zostaną utworzone katalogi *SYS* oraz *Work*. 
 
 {: .box-note}
-Pobierz plik:  
-[startaros.sh](/assets/startaros.sh "download")
+Uruchomienie dowolnej aplikacji AxRT spowoduje utworzenie w katalogu domowym katalogów *SYS* oraz *Work*.
 
-![hosted7](/assets/img/hosted7.png)
+![axrt4](/assets/img/axrt4.png)
 
 Otwórz plik w edytorze tekstu i zmień nazwy interfejsów sieciowych na takie, które występują w twoim systemie.
 
