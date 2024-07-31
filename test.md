@@ -28,9 +28,20 @@ Uruchom terminal z Ubuntu.
 
 ![axrtWSL5](/assets/img/axrtWSL5.png)
 
-Wejdź we właściwości pliku **StartOWB** i w zakładce *Permissions* zaznacz pole *Allow executing file as program*. Następnie uruchom plik **StartOWB**.
-
-![axrt3](/assets/img/axrt3.png)
+Korzystając z terminala, wykonaj kolejno komendy:
+- rozpakuj pakiet **LibAxRT**
+```
+sudo dpkg -i ~/libaxrt-4.0_41.10-1_amd64.deb
+```
+- ustaw uprawnienia dla pliku **StartOWB**
+```
+chmod +x StartOWB
+```
+- uruchom plik **StartOWB**
+```
+./StartOWB
+```
+![axrtWSL6](/assets/img/axrtWSL6.png)
 
 Po uruchomieniu **StartOWB** w katalogu domowym zostaną utworzone katalogi *SYS* oraz *Work*. 
 
