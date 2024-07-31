@@ -10,15 +10,15 @@ Do zainstalowania Oddysey Web Browser pod linuksem użyjemy najnowszej dystrybuc
 
 ![hosted1](/assets/img/hosted1.png)
 
-Korzystając z linuksowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z **AROS** oraz **OWB**.
+Korzystając z linuksowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z pakietem **LibAXRT**, bibliotekami **OWB-Libs**, przeglądarką **OWB** i launcherem dla OWB **StartOWB**.
 
-![hosted4](/assets/img/hosted4.png)
+![axrt1](/assets/img/axrt1.png)
 
-Wypakuj z archiwum katalog AROS do /home/username/ (gdzie *"username"* to twoja nazwa użytkownika w katalogu domowym).
+W pierwszej kolejności zainstaluj pakiet **LibAXRT**.
 
-![hosted5](/assets/img/hosted5.png)
+![axrt2](/assets/img/axrt2.png)
 
-Archwum z OWB wypakuj w dowolne miejsce w strukturze katalogów AROS. Ja wypakowałem do *AROS/Extras/Networking/Apps/* i zmieniłem nazwę katalogu z **owb-x86_64** na **OWB**.
+Wejdź we właściwości pliku **StartOWB** i w zakładce *Permissions* zaznacz pole *Allow executing file as program*. Następnie uruchom plik **StartOWB**.
 
 ![hosted6](/assets/img/hosted6.png)
 
