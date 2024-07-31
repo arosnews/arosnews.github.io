@@ -21,7 +21,7 @@ Using a windows browser, download the latest archives with the **LibAxRT** packa
 
 ![axrtWSL3](/assets/img/axrtWSL3.png)
 
-Copy the **LibAxRT** package and **StartOWB** file to the WSL subsystem user's home directory. You have access to the WSL directories from within Windows File Explorer.
+Copy the **LibAxRT** package and **StartOWB** file to the WSL subsystem user's home directory. You have access to the WSL directories from the Windows File Explorer. The *ubuntu* directory is located on the left side of the File Explorer window, under disk names. 
 
 ![axrtWSL4](/assets/img/axrtWSL4.png)
 
