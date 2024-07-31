@@ -20,7 +20,7 @@ Korzystając z windowsowej przeglądarki ściągnij ze strony [https://axrt.org/
 
 ![axrtWSL3](/assets/img/axrtWSL3.png)
 
-Skopiuj pakiet **LibAxRT** oraz plik **StartOWB** do katalogu domowego użytkownika podsystemu WSL. Masz dostęp do katalogów WSL z poziomu Exploratora Plików Windows.
+Skopiuj pakiet **LibAxRT** oraz plik **StartOWB** do katalogu domowego użytkownika podsystemu WSL. Masz dostęp do katalogów WSL z poziomu Exploratora Plików Windows. Katalog *ubuntu" znajduje się po lewej stronie okna Eksploratora plików, pod nazwami dysków. 
 
 ![axrtWSL4](/assets/img/axrtWSL4.png)
 
