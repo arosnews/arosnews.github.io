@@ -41,6 +41,7 @@ chmod +x StartOWB
 ```
 ./StartOWB
 ```
+  
 ![axrtWSL6](/assets/img/axrtWSL6.png)
 
 Po uruchomieniu **StartOWB** w katalogu domowym zostaną utworzone katalogi *SYS* oraz *Work*. 
