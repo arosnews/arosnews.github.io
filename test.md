@@ -81,4 +81,4 @@ Możesz też utworzyć skrót na pulpicie. Pamietaj, aby w ścieżce wpisać swo
 
 Zapraszam na forum [AROS World](https://www.arosworld.org), gdzie możesz zadać dodatkowe pytania na temat użytkowania AROSa, AxRT i OWB. Możesz też tam zgłaszać napotkane błędy w działaniu.
   
-![axrtWSL11](/assets/img/axrtSL11.png)
+![axrtWSL11](/assets/img/axrtWSL11.png)
