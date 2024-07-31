@@ -71,7 +71,7 @@ cd Work/owb-x86_64
 ./StartOWB
 ```
 
-Możesz też utworzyć skrót na pulpicie. Pamietaj, aby w ścieżce wpisać swoją własną nazwę użytkownika.
+Możesz też utworzyć skrót na pulpicie. Pamiętaj, aby w ścieżce wpisać swoją własną nazwę użytkownika.
 
 ```
 "C:\Program Files\WSL\wslg.exe" -- "/home/username/Work/owb-x86_64/StartOWB"
