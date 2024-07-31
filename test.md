@@ -77,7 +77,7 @@ Możesz też utworzyć skrót na pulpicie. Pamietaj, aby w ścieżce wpisać swo
 "C:\Program Files\WSL\wslg.exe" -- "/home/username/Work/owb-x86_64/StartOWB"
 ```
 
-![axrtWSL12](/assets/img/axrtSL12.png)
+![axrtWSL12](/assets/img/axrtWSL12.png)
 
 Zapraszam na forum [AROS World](https://www.arosworld.org), gdzie możesz zadać dodatkowe pytania na temat użytkowania AROSa, AxRT i OWB. Możesz też tam zgłaszać napotkane błędy w działaniu.
   
