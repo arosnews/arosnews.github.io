@@ -49,17 +49,36 @@ Po uruchomieniu **StartOWB** w katalogu domowym użytkownika WSL zostaną utworz
 {: .box-note}
 Uruchomienie dowolnej aplikacji AxRT spowoduje utworzenie w katalogu domowym katalogów *SYS* oraz *Work*.
 
-![axrtWSL6](/assets/img/axrtWSL7.png)
+![axrtWSL7](/assets/img/axrtWSL7.png)
 
-- Rozpakuj archiwum z **OWB-Libs** do */home/username/SYS* 
-- Rozpakuj archiwum z **OWB** do */home/username/Work*.
-- Przenieś plik **StartOWB** do katalogu z Oddysey Web Browser (*/home/username/Work/OWB-x86_64*).
+Rozpakuj wcześniej pobrane archiwa **OWB-Libs** i **OWB** do utworzonych katalogów.  
 
-![axrt5](/assets/img/axrt5.png)
+- Archiwum z **OWB-Libs** do */home/username/SYS*  
 
-Możesz teraz uruchomić Oddysey Web Browser klikając w **StartOWB**. Pamiętaj, że pierwsze uruchomienie OWB trwa dłużej niż zwykle, gdyż inicjowane są w tym czasie czcionki.
+![axrtWSL8](/assets/img/axrtWSL8.png)
+   
+- Archiwum z **OWB** do */home/username/Work*
 
-![axrt6](/assets/img/axrt6.png)
+![axrtWSL9](/assets/img/axrtWSL9.png)
+
+- Przenieś plik **StartOWB** do katalogu z Oddysey Web Browser (*/home/username/Work/owb-x86_64*).
+
+![axrtWSL10](/assets/img/axrtWSL10.png)
+
+Możesz teraz uruchomić Oddysey Web Browser z poziomu terminala. Przejdź do katalogu z OWB i uruchom plik StartOWB.  
+```
+cd Work/owb-x86_64  
+./StartOWB
+```
+
+Możesz też utworzyć skrót na pulpicie. Pamietaj, aby w ścieżce wpisać swoją własną nazwę użytkownika.
+
+```
+"C:\Program Files\WSL\wslg.exe" -- "/home/username/Work/owb-x86_64/StartOWB"
+```
+
+![axrtWSL12](/assets/img/axrtSL12.png)
 
 Zapraszam na forum [AROS World](https://www.arosworld.org), gdzie możesz zadać dodatkowe pytania na temat użytkowania AROSa, AxRT i OWB. Możesz też tam zgłaszać napotkane błędy w działaniu.
-
+  
+![axrtWSL11](/assets/img/axrtSL11.png)
