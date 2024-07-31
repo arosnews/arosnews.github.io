@@ -44,12 +44,12 @@ chmod +x StartOWB
   
 ![axrtWSL6](/assets/img/axrtWSL6.png)
 
-Po uruchomieniu **StartOWB** w katalogu domowym zostaną utworzone katalogi *SYS* oraz *Work*. 
+Po uruchomieniu **StartOWB** w katalogu domowym użytkownika WSL zostaną utworzone katalogi *SYS* oraz *Work*. 
 
 {: .box-note}
 Uruchomienie dowolnej aplikacji AxRT spowoduje utworzenie w katalogu domowym katalogów *SYS* oraz *Work*.
 
-![axrt4](/assets/img/axrt4.png)
+![axrtWSL6](/assets/img/axrtWSL6.png)
 
 - Rozpakuj archiwum z **OWB-Libs** do */home/username/SYS* 
 - Rozpakuj archiwum z **OWB** do */home/username/Work*.
