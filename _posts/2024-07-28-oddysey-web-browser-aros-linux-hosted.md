@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oddysey Web Browser w AROS linux hosted
+title: Oddysey Web Browser w AROS Linux hosted
 subtitle: instrukcja instalacji
 lang: pl
 ref: tutOWBh
