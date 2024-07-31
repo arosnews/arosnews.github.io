@@ -29,13 +29,15 @@ Uruchomienie dowolnej aplikacji AxRT spowoduje utworzenie w katalogu domowym kat
 
 ![axrt4](/assets/img/axrt4.png)
 
-Otwórz plik w edytorze tekstu i zmień nazwy interfejsów sieciowych na takie, które występują w twoim systemie.
+- Rozpakuj archiwum z **OWB-Libs** do *SYS* 
+- Rozpakuj archiwum z **OWB** do *Work*.
+- Skopiuj plik **StartOWB** do katalogu z Oddysey Web Browser (*Work/OWB-x86_64*).
 
-![hosted8](/assets/img/hosted8.png)
+![axrt5](/assets/img/axrt5.png)
 
 Aby sprawdzić nazwy swoich interfejsów sieciowych uruchom **Advanced Network Configuration**.
 
-![hosted9](/assets/img/hosted9.png)
+![axrt6](/assets/img/axrt6.png)
 
 Zaznacz nazwę połaczenia sieciowego i kliknij w ikonę ustawień. W polu *Device* znajduje się nazwa interfejsu sieciowego. W moim przypadku karta wifi ma nazwę **wlp2s0**, a karta ethernet **eno1**. U ciebie te nazwy mogą być inne. Pamiętaj, aby poprawnie wpisać je do skryptu.
 
