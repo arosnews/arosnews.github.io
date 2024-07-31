@@ -31,7 +31,7 @@ Uruchomienie dowolnej aplikacji AxRT spowoduje utworzenie w katalogu domowym kat
 
 - Rozpakuj archiwum z **OWB-Libs** do */home/username/SYS* 
 - Rozpakuj archiwum z **OWB** do */home/username/Work*.
-- Skopiuj plik **StartOWB** do katalogu z Oddysey Web Browser (*/home/username/Work/OWB-x86_64*).
+- Przenieś plik **StartOWB** do katalogu z Oddysey Web Browser (*/home/username/Work/OWB-x86_64*).
 
 ![axrt5](/assets/img/axrt5.png)
 
