@@ -32,7 +32,7 @@ Running any AxRT application will create *SYS* and *Work* directories in the hom
 
 - Extract the archive with **OWB-Libs** to */home/username/SYS*. 
 - Extract the archive with **OWB** to */home/username/Work*.
-- Move the **StartOWB** file to the directory with Oddysey Web Browser (*/home/username/Work/OWB-x86_64*).
+- Move the **StartOWB** file to the directory with Oddysey Web Browser (*/home/username/Work/owb-x86_64*).
 
 ![axrt5](/assets/img/axrt5.png)
 
