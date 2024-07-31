@@ -49,7 +49,7 @@ Po uruchomieniu **StartOWB** w katalogu domowym użytkownika WSL zostaną utworz
 {: .box-note}
 Uruchomienie dowolnej aplikacji AxRT spowoduje utworzenie w katalogu domowym katalogów *SYS* oraz *Work*.
 
-![axrtWSL6](/assets/img/axrtWSL6.png)
+![axrtWSL6](/assets/img/axrtWSL7.png)
 
 - Rozpakuj archiwum z **OWB-Libs** do */home/username/SYS* 
 - Rozpakuj archiwum z **OWB** do */home/username/Work*.
