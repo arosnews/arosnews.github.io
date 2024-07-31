@@ -20,9 +20,13 @@ Korzystając z windowsowej przeglądarki ściągnij ze strony [https://axrt.org/
 
 ![axrtWSL3](/assets/img/axrtWSL3.png)
 
-W pierwszej kolejności zainstaluj pakiet **LibAxRT**.
+Skopiuj pakiet **LibAxRT** oraz plik **StartOWB** do katalogu domowego użytkownika podsystemu WSL. Masz dostęp do katalogów WSL z poziomu Exploratora Plików Windows.
 
-![axrt2](/assets/img/axrt2.png)
+![axrtWSL4](/assets/img/axrtWSL4.png)
+
+Uruchom terminal z Ubuntu. 
+
+![axrtWSL5](/assets/img/axrtWSL5.png)
 
 Wejdź we właściwości pliku **StartOWB** i w zakładce *Permissions* zaznacz pole *Allow executing file as program*. Następnie uruchom plik **StartOWB**.
 
