@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Oddysey Web Browser w AxRT Linux
+title: Oddysey Web Browser w AxRT Windows 11 (WSL2)
 subtitle: instrukcja instalacji
 lang: pl
 ref: tutWSLh
 ---
 
-Do zainstalowania Oddysey Web Browser pod linuksem użyjemy najnowszej dystrybucji **Linux Mint 22 "Willma" (Cinnamon Edition)**. Upewnij się w **Update Manager**, że system jest w pełni aktualny. 
+W tym krótkim tutorialu pokażę jak uruchomić Oddysey Web Browser na komputerze z Windows 11 z zainstalowanym WSL2. Jedną z prostszych metod na zainstalowanie WSL2 jest skorzystanie z **WSL Manager**. Możesz go pobrać ze Sklepu Microsoft lub bezpośrednio ze [strony Github projektu](https://github.com/bostrot/wsl2-distro-manager/releases).
+
+Przy pierwszym uruchomieniu, jeśli nie miałeś wcześniej systemie WSL, **WSL Manager** przeprowadzi cię przez proces instalacji (wymagany będzie restart komputera). Po ponownym uruchomieniu przejdź do ustawień i zaznacz opcję **GuiAplications** na **true**.
 
 ![hosted1](/assets/img/hosted1.png)
 
