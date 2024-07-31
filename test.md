@@ -1,18 +1,14 @@
 ---
 layout: page
-title: Oddysey Web Browser w AROS linux hosted
+title: Oddysey Web Browser w AxRT Linux
 subtitle: instrukcja instalacji
 lang: pl
 ref: tutWSLh
 ---
 
-Do zainstalowania systemu **AROS** w wersji hostowanej przez system linuks, użyjemy najnowszej dystrybucji **Linux Mint 22 "Willma" (Cinnamon Edition)**. Upewnij się w **Update Manager**, że system jest w pełni aktualny. 
+Do zainstalowania Oddysey Web Browser pod linuksem użyjemy najnowszej dystrybucji **Linux Mint 22 "Willma" (Cinnamon Edition)**. Upewnij się w **Update Manager**, że system jest w pełni aktualny. 
 
 ![hosted1](/assets/img/hosted1.png)
-
-Uruchom **Software Manager** i doinstaluj pakiet **Uml-utilities**.
-
-![hosted2](/assets/img/hosted2.png)
 
 Korzystając z linuksowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z **AROS** oraz **OWB**.
 
