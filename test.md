@@ -10,11 +10,15 @@ W tym krótkim tutorialu pokażę jak uruchomić Oddysey Web Browser na komputer
 
 Przy pierwszym uruchomieniu, jeśli nie miałeś wcześniej systemie WSL, **WSL Manager** przeprowadzi cię przez proces instalacji (wymagany będzie restart komputera). Po ponownym uruchomieniu przejdź do ustawień i zaznacz opcję **GuiAplications** na **true**.
 
-![hosted1](/assets/img/axrtWSL1.png)
+![axrtWSL1](/assets/img/axrtWSL1.png)
+
+Dodaj nową instancję WSL. Na poniższym screenie widzisz, że ja nazwałem swoją instancję *ubuntu*, wybrałem instalację *Ubuntu 24.04* i wpisałem swoją nazwę użytkownika, którą będę się posługiwał w linuksowym podsystemie.
+
+![axrtWSL2](/assets/img/axrtWSL2.png)
 
 Korzystając z windowsowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z pakietem **LibAxRT**, bibliotekami **OWB-Libs**, przeglądarką **OWB** i launcherem dla OWB **StartOWB**.
 
-![axrt1](/assets/img/axrt1.png)
+![axrtWSL3](/assets/img/axrtWSL3.png)
 
 W pierwszej kolejności zainstaluj pakiet **LibAxRT**.
 
