@@ -20,7 +20,7 @@ W pierwszej kolejności zainstaluj pakiet **LibAXRT**.
 
 Wejdź we właściwości pliku **StartOWB** i w zakładce *Permissions* zaznacz pole *Allow executing file as program*. Następnie uruchom plik **StartOWB**.
 
-![hosted6](/assets/img/hosted6.png)
+![axrt3](/assets/img/axrt3.png)
 
 Skopiuj do *AROS/boot/linux/* plik **startaros.sh**, który zawiera skrypt sieciowy po stronie linuksa i uruchamia AROSa.
 
