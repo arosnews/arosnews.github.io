@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Oddysey Web Browser w AxRT Windows 11 (WSL2)
+title: Odyssey Web Browser w AxRT Windows 11 (WSL2)
 subtitle: instrukcja instalacji
 lang: pl
 ref: tutOWBaw
 ---
 
-W tym krótkim tutorialu pokażę jak uruchomić Oddysey Web Browser na komputerze z Windows 11 z zainstalowanym WSL2. Jedną z prostszych metod na zainstalowanie WSL2 jest skorzystanie z **WSL Manager**. Możesz go pobrać ze Sklepu Microsoft lub bezpośrednio ze [strony Github projektu](https://github.com/bostrot/wsl2-distro-manager/releases).
+W tym krótkim tutorialu pokażę jak uruchomić Odyssey Web Browser na komputerze z Windows 11 z zainstalowanym WSL2. Jedną z prostszych metod na zainstalowanie WSL2 jest skorzystanie z **WSL Manager**. Możesz go pobrać ze Sklepu Microsoft lub bezpośrednio ze [strony Github projektu](https://github.com/bostrot/wsl2-distro-manager/releases).
 
 Przy pierwszym uruchomieniu, jeśli nie miałeś wcześniej systemie WSL, **WSL Manager** przeprowadzi cię przez proces instalacji (wymagany będzie restart komputera). Po ponownym uruchomieniu przejdź do ustawień i zaznacz opcję **GuiAplications** na **true**.
 
@@ -61,11 +61,11 @@ Rozpakuj wcześniej pobrane archiwa **OWB-Libs** i **OWB** do utworzonych katalo
 
 ![axrtWSL9](/assets/img/axrtWSL9.png)
 
-- Przenieś plik **StartOWB** do katalogu z Oddysey Web Browser (*/home/username/Work/owb-x86_64*).
+- Przenieś plik **StartOWB** do katalogu z Odyssey Web Browser (*/home/username/Work/owb-x86_64*).
 
 ![axrtWSL10](/assets/img/axrtWSL10.png)
 
-Możesz teraz uruchomić Oddysey Web Browser z poziomu terminala. Przejdź do katalogu z OWB i uruchom plik StartOWB.  
+Możesz teraz uruchomić Odyssey Web Browser z poziomu terminala. Przejdź do katalogu z OWB i uruchom plik StartOWB.  
 ```
 cd Work/owb-x86_64  
 ./StartOWB
