@@ -92,8 +92,9 @@ i włączyć ją ręcznie, tworząc w katalogu domowym plik **.asoundrc** z poni
 pcm.default pulse
 ctl.default pulse
 ```
-Na koniec należy zrestartować system WSL.
+Na koniec należy zrestartować system WSL.  
+
 {: .box-note}
-Pobierz gotowy plik **.asoundrc** i zapisz go w katalogu domowym:
+Pobierz gotowy plik **.asoundrc** i zapisz go w katalogu domowym:  
 [.asoundrc](/assets/.asoundrc "download")
 
