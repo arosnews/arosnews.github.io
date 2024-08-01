@@ -83,6 +83,8 @@ Zapraszam na forum [AROS World](https://www.arosworld.org), gdzie możesz zadać
   
 ![axrtWSL11](/assets/img/axrtWSL11.png)
 
+## Problemy z dźwiękiem?
+
 Możesz nie mieć dźwięku, np. podczas odtwarzania filmów na YouTube. Dzieje się tak dlatego, że WSLg w obecnej wersji obsługuje PulseAudio, ale nie ALSA. Istnieje wtyczka libasound2 (biblioteka ALSA), która przenosi połączenie z ALSA na PulseAudio. Wtyczka nazywa się pulse. Musisz więc zainstalować wtyczkę, uruchamiając w terminalu polecenie:
 ```
 sudo apt install libasound2-plugins
