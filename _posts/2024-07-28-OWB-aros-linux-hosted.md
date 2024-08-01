@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oddysey Web Browser on AROS Linux hosted
+title: Odyssey Web Browser on AROS Linux hosted
 subtitle: installation manual
 tag: tutorial
 lang: en
@@ -71,7 +71,7 @@ Test your internet connection. Run *System/System/Shell* and run the **ping** co
 
 ![ping](/assets/img/ping.png)
 
-If you have configured everything correctly and the Internet is working, you can now launch Oddysey Web Browser. Note that the first startup of OWB takes longer than usual, as fonts are downloaded during this time.
+If you have configured everything correctly and the Internet is working, you can now launch Odyssey Web Browser. Note that the first startup of OWB takes longer than usual, as fonts are downloaded during this time.
 
 ![hosted14](/assets/img/hosted14.png)
 
