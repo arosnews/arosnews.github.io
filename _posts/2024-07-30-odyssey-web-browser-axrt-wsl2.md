@@ -82,3 +82,18 @@ Możesz też utworzyć skrót na pulpicie. Pamiętaj, aby w ścieżce wpisać sw
 Zapraszam na forum [AROS World](https://www.arosworld.org), gdzie możesz zadać dodatkowe pytania na temat użytkowania AROSa, AxRT i OWB. Możesz też tam zgłaszać napotkane błędy w działaniu.
   
 ![axrtWSL11](/assets/img/axrtWSL11.png)
+
+Możesz nie mieć dźwięku, np. podczas odtwarzania filmów na YouTube. Dzieje się tak dlatego, że WSLg w obecnej wersji obsługuje PulseAudio, ale nie ALSA. Istnieje wtyczka libasound2 (biblioteka ALSA), która przenosi połączenie z ALSA na PulseAudio. Wtyczka nazywa się pulse. Musisz więc zainstalować wtyczkę, uruchamiając w terminalu polecenie:
+```
+sudo apt install libasound2-plugins
+```
+i włączyć ją ręcznie, tworząc w katalogu domowym plik **.asoundrc** z poniższą zawartością:
+```
+pcm.default pulse
+ctl.default pulse
+```
+Na koniec należy zrestartować system WSL.
+{: .box-note}
+Pobierz gotowy plik **.asoundrc** i zapisz go w katalogu domowym:
+[.asoundrc](/assets/.asoundrc "download")
+
