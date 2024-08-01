@@ -97,6 +97,6 @@ ctl.default pulse
 Na koniec należy zrestartować system WSL.  
 
 {: .box-note}
-Pobierz gotowy plik **.asoundrc** i zapisz go w katalogu domowym:  
-[.asoundrc](/assets/.asoundrc "download")
+Pobierz gotowe archiwum z plikiem **.asoundrc** i rozpakuj je w katalogu domowym:  
+[.asoundrc](/assets/asoundrc.zip "download")
 
