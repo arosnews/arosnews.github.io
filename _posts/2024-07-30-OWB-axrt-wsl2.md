@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Oddysey Web Browser on AxRT Windows 11 (WSL2)
+title: Odyssey Web Browser on AxRT Windows 11 (WSL2)
 subtitle: installation manual
 tag: tutorial
 lang: en
 ref: tutOWBaw
 ---
 
-In this short tutorial, I will show you how to run Oddysey Web Browser on a Windows 11 computer with WSL2 installed. One of the simpler methods to install WSL2 is to use **WSL Manager**. You can download it from the Microsoft Store or directly from [the project's Github page](https://github.com/bostrot/wsl2-distro-manager/releases).
+In this short tutorial, I will show you how to run Odyssey Web Browser on a Windows 11 computer with WSL2 installed. One of the simpler methods to install WSL2 is to use **WSL Manager**. You can download it from the Microsoft Store or directly from [the project's Github page](https://github.com/bostrot/wsl2-distro-manager/releases).
 
 The first time you run it, if you have not had a WSL system before, **WSL Manager** will guide you through the installation process (a reboot will be required). After restarting, go to settings and mark **GuiAplications** to **true**.
 
@@ -66,7 +66,7 @@ Extract the previously downloaded **OWB-Libs** and **OWB** archives to the creat
 
 ![axrtWSL10](/assets/img/axrtWSL10.png)
 
-You can now run Oddysey Web Browser from a terminal. Navigate to the directory with OWB and run the StartOWB file.  
+You can now run Odyssey Web Browser from a terminal. Navigate to the directory with OWB and run the StartOWB file.  
 ```
 cd Work/owb-x86_64  
 ./StartOWB
