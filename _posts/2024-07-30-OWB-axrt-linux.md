@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Oddysey Web Browser on AxRT Linux
+title: Odyssey Web Browser on AxRT Linux
 subtitle: installation manual
 tag: tutorial
 lang: en
 ref: tutOWBal
 ---
 
-To install Oddysey Web Browser under Linux, we will use the latest distribution **Linux Mint 22 “Willma” (Cinnamon Edition)**. Make sure in **Update Manager** that your system is fully up to date. 
+To install Odyssey Web Browser under Linux, we will use the latest distribution **Linux Mint 22 “Willma” (Cinnamon Edition)**. Make sure in **Update Manager** that your system is fully up to date. 
 
 ![hosted1](/assets/img/hosted1.png)
 
@@ -36,7 +36,7 @@ Running any AxRT application will create *SYS* and *Work* directories in the hom
 
 ![axrt5](/assets/img/axrt5.png)
 
-You can now start Oddysey Web Browser by clicking on **StartOWB**. Note that the first startup of OWB takes longer than usual, as fonts are initialized during this time.
+You can now start Odyssey Web Browser by clicking on **StartOWB**. Note that the first startup of OWB takes longer than usual, as fonts are initialized during this time.
 
 ![axrt6](/assets/img/axrt6.png)
 
