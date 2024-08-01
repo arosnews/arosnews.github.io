@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Oddysey Web Browser w AxRT Linux
+title: Odyssey Web Browser w AxRT Linux
 subtitle: instrukcja instalacji
 lang: pl
 ref: tutOWBal
 ---
 
-Do zainstalowania Oddysey Web Browser pod linuksem użyjemy najnowszej dystrybucji **Linux Mint 22 "Willma" (Cinnamon Edition)**. Upewnij się w **Update Manager**, że system jest w pełni aktualny. 
+Do zainstalowania Odyssey Web Browser pod linuksem użyjemy najnowszej dystrybucji **Linux Mint 22 "Willma" (Cinnamon Edition)**. Upewnij się w **Update Manager**, że system jest w pełni aktualny. 
 
 ![hosted1](/assets/img/hosted1.png)
 
