@@ -39,5 +39,8 @@ Możesz teraz uruchomić Oddysey Web Browser klikając w **StartOWB**. Pamiętaj
 
 ![axrt6](/assets/img/axrt6.png)
 
+{: .box-success}
+Pomiędzy aplikacjami AxRT, a systemem hostującym działa schowek. Możesz używać schowka za pomocą CTRL+C, CTRL+V po stronie hosta oraz AMIGA+C, AMIGA+V po stronie AxRT.
+
 Zapraszam na forum [AROS World](https://www.arosworld.org), gdzie możesz zadać dodatkowe pytania na temat użytkowania AROSa, AxRT i OWB. Możesz też tam zgłaszać napotkane błędy w działaniu.
 
