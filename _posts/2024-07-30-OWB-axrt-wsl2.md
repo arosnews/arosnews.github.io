@@ -80,6 +80,9 @@ You can also create a shortcut on the desktop. Remember to put your own username
 
 ![axrtWSL12](/assets/img/axrtWSL12.png)
 
+{: .box-success}
+There is a clipboard between the AxRT applications and the hosting system. You can use the clipboard with CTRL+C, CTRL+V on the host side and AMIGA+C, AMIGA+V on the AxRT side.
+
 Feel free to visit the [AROS World](https://www.arosworld.org) forum, where you can ask additional questions about using AROS, AxRT and OWB. You can also report there any performance bugs you encounter.
   
 ![axrtWSL11](/assets/img/axrtWSL11.png)
