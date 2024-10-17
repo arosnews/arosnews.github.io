@@ -21,7 +21,7 @@ Following this introduction, here are the results.
 ![Results](/assets/img/art.png)
 *Results*
 
-Odyssey 2.0 is capable of closing the gap with modern day browser. The key is being able to use multiple processor cores, but also further updates of the engine are needed as well as solving the rendering bottleneck will be necessary.There are a few interesting conclusion visible in the above table.  
+There are a few interesting conclusion visible in the above table.  
 
 First, let's look at situation where there is no JIT. This is the scenario that is present in Odyssey 2.0 32-bit, as JIT is no longer supported on 32-bit WebKit engine. Additionally, existing WebKit-based browsers running on other NG operating systems should also show similar results. What is visible in results of CPU-intensive benchmarks is that this scenario reaches only around 5% of performance of modern day browser! When it comes to user experience, which of course counts more than pure CPU, the results are around 25% of reference. This unfortunately makes for a visible slowdown when browsing heavy JavaScript pages.  
 
