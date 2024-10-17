@@ -40,8 +40,8 @@ The other conclusion is that 64-bit Odyssey 2.0 is capable of closing the gap wi
 
 References:  
 
-https://chromium.github.io/octane/  
-https://mozilla.github.io/krakenbenchmark.mozilla.org/kraken-1.1/driver.html  
-https://browserbench.org/Speedometer2.0/  
+[https://chromium.github.io/octane/](https://chromium.github.io/octane/)
+[https://mozilla.github.io/krakenbenchmark.mozilla.org/kraken-1.1/driver.html](https://mozilla.github.io/krakenbenchmark.mozilla.org/kraken-1.1/driver.html)  
+[https://browserbench.org/Speedometer2.0/](https://browserbench.org/Speedometer2.0/)  
 
 
