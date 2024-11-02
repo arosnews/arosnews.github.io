@@ -119,10 +119,10 @@ Narzędzie do wyodrębniania plików `.CAB` z pliku `.exe` InstallShield.
 > ## [SetScreenMode](https://archives.aros-exec.org/?function=showfile&file=utility/shell/setscreenmode.i386-aros.zip) (v. 1.0)
 > (autor:	Nigel Tromans)
 
-Set_Screen_Mode to mała aplikacja Hollywood do automatycznego ustawiania tryb ekranu podczas uruchamiania z wcześniej ustawionej listy.  
+Set_Screen_Mode to mała aplikacja Hollywood do automatycznego ustawiania trybu ekranu podczas uruchamiania z wcześniej ustawionej listy.  
 
-Uwaga: Set_Screen_Mode jest przydatny tylko wtedy, gdy instalacja AROS jest wykorzystuje natywną grafikę.  
+Uwaga: Set_Screen_Mode jest przydatny tylko wtedy, gdy instalacja AROS wykorzystuje natywną grafikę.  
 
-Została stworzona, aby umożliwić maszynom, które są przenoszone między różnymi wyświetlaczami (takimi jak laptopy z wewnętrznym ekranem i zewnętrznie podłączonymi monitorami) automatycznie uruchamiać się w preferowanym trybie ekranu dla każdego z tych wyświetlaczy, a także pomóc w wyświetlaniu ekranu na ekranach, które są trudne do w użyciu (na przykład takich, które nie są w stanie wyświetlić domyślnego trybu 640x480).  
+Została stworzona, aby umożliwić maszynom, które są przenoszone między różnymi wyświetlaczami (takimi jak laptopy z wewnętrznym ekranem i zewnętrznie podłączonymi monitorami) automatycznie uruchamiać się w preferowanym trybie ekranu dla każdego z tych wyświetlaczy, a także pomóc w wyświetlaniu ekranu na ekranach, które są trudne w użyciu (na przykład takich, które nie są w stanie wyświetlić domyślnego trybu 640x480).  
 
-Set_Screen_Mode odczyta dostępne tryby ekranu dostarczone przez przez wyświetlacz i porówna je z trybami wybranymi przez użytkownika na uporządkowanej liście. Możliwe jest również wymuszenie trybu, nawet jeśli nie ma go na liście lub całkowicie zignorować tryby ustawione dla Set_Screen_Mode.  
+Set_Screen_Mode odczyta dostępne tryby ekranu dostarczone przez wyświetlacz i porówna je z trybami wybranymi przez użytkownika na uporządkowanej liście. Możliwe jest również wymuszenie trybu, nawet jeśli nie ma go na liście lub całkowite zignorowanie trybu ustawionego dla Set_Screen_Mode.  
