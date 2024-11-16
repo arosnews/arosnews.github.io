@@ -6,7 +6,7 @@ lang: pl
 ref: tutOWBaw
 ---
 
-W tym krótkim tutorialu pokażę jak uruchomić Odyssey Web Browser na komputerze z Windows 11 z zainstalowanym WSL2. Jedną z prostszych metod na zainstalowanie WSL2 jest skorzystanie z **WSL Manager**. Możesz go pobrać ze Sklepu Microsoft lub bezpośrednio ze [strony Github projektu](https://github.com/bostrot/wsl2-distro-manager/releases/tag/v1.8.14).
+W tym krótkim tutorialu pokażę jak uruchomić Odyssey Web Browser na komputerze z Windows 11 z zainstalowanym WSL2. Jedną z prostszych metod na zainstalowanie WSL2 jest skorzystanie z **WSL Manager**. Możesz go pobrać bezpośrednio ze [strony Github projektu](https://github.com/bostrot/wsl2-distro-manager/releases/tag/v1.8.14). W tym tutorialu korzystałem z WSL Manager w wersji 1.8.14. 
 
 {: .box-note}
 Wiele płyt głównych domyślnie ma wyłączoną opcję wirualizacji. Opcja ta zwykle znajduje się w BIOSie w zaawansowanych ustawieniach procesora. Włącz ją zanim przejdziesz do dalszej instalacji.
