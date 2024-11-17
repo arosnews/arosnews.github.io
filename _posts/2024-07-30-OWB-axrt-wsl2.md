@@ -35,7 +35,7 @@ Start the terminal with Ubuntu.
 Using a terminal, execute the commands in sequence:
 - unpack the **LibAxRT** package.
 ```
-sudo dpkg -i ~/libaxrt-4.0_41.10-1_amd64.deb
+sudo dpkg -i ~/libaxrt-4.0_41.12-1_amd64.deb
 ```
 - set permissions for **StartOWB** file.
 ```
