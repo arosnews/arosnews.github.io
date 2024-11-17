@@ -15,7 +15,9 @@ Run **Software Manager** and install the **Uml-utilities** package.
 
 ![hosted2](/assets/img/hosted2.png)
 
-Using a Linux browser, download the latest archives with **AROS** and **OWB** from [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/).
+Using a Linux browser, download the latest archives with **AROS** and **OWB** from  
+[https://www.axrt.org/download/aros/v11/AROS-20241102-1-linux-x86_64-system.tar.bz2](https://www.axrt.org/download/aros/v11/AROS-20241102-1-linux-x86_64-system.tar.bz2)  
+[https://archives.aros-exec.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip](https://archives.aros-exec.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip)  
 
 ![hosted4](/assets/img/hosted4.png)
 
