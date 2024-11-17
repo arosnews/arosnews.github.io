@@ -18,7 +18,11 @@ Korzystając z linuksowej przeglądarki ściągnij najnowsze archiwa z **AROS** 
 [https://www.axrt.org/download/aros/v11/AROS-20241102-1-linux-x86_64-system.tar.bz2](https://www.axrt.org/download/aros/v11/AROS-20241102-1-linux-x86_64-system.tar.bz2)  
 [https://archives.aros-exec.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip](https://archives.aros-exec.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip)  
 
-Wypakuj z archiwum katalog AROS do /home/username/ (gdzie *"username"* to twoja nazwa użytkownika w katalogu domowym).
+Wypakuj z archiwum katalog AROS do /home/username/ (gdzie *"username"* to twoja nazwa użytkownika w katalogu domowym).  
+
+Pobierz archiwum z plikami **Contrib**. Możesz skopiować wszystko do katalogu z AROS, ale do uruchomienia OWB potrzebujesz jedynie *pixman.library* z katalogu *Libs*.  
+
+[https://www.axrt.org/download/aros/v11/AROS-20241102-1-any-x86_64-contrib.tar.bz2](https://www.axrt.org/download/aros/v11/AROS-20241102-1-any-x86_64-contrib.tar.bz2)  
 
 ![hosted5](/assets/img/hosted5.png)
 
