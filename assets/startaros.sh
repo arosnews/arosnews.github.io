@@ -12,4 +12,4 @@ if [ "$NETON" = "" ]; then
 fi
 
 cd ~/AROS/boot/linux/
-./AROSBootstrap -m 1024
+./AROSBootstrap -m 2048
