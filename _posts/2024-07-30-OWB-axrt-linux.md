@@ -13,8 +13,6 @@ To install Odyssey Web Browser under Linux, we will use the latest distribution 
 
 Using a Linux browser, download the latest archives with the [**LibAxRT**](https://axrt.org/download/axrt/4.0/packages/libaxrt-4.0_41.12-1_amd64.deb) package, the [**OWB-Libs**](https://axrt.org/download/axrt/4.0/other/OWB-Libs-for-x86_64-axrt.zip) libraries, the [**OWB**](https://archives.aros-exec.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip) browser and the launcher for OWB [**StartOWB**](https://axrt.org/download/axrt/4.0/other/StartOWB) from [https://axrt.org/download/axrt/4.0/](https://axrt.org/download/axrt/4.0/).
 
-![axrt1](/assets/img/axrt1.png)
-
 Install the **LibAxRT** package first.
 
 ![axrt2](/assets/img/axrt2.png)
