@@ -69,6 +69,8 @@ Extract the previously downloaded **OWB-Libs** and **OWB** archives to the creat
 
 ![axrtWSL10](/assets/img/axrtWSL10.png)
 
+In the owb-x86_64 directory, rename the file “OWB.info.axrt” to “OWB.info”. This will give you an icon with a tooltype that launches OWB using CONCURRENT_JIT.
+
 You can now run Odyssey Web Browser from a terminal. Navigate to the directory with OWB and run the StartOWB file.  
 ```
 cd Work/owb-x86_64  
