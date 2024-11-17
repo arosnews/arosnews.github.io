@@ -19,7 +19,7 @@ Dodaj nową instancję WSL. Na poniższym screenie widzisz, że ja nazwałem swo
 
 ![axrtWSL2](/assets/img/axrtWSL2.png)
 
-Korzystając z windowsowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z pakietem **LibAxRT**, bibliotekami **OWB-Libs**, przeglądarką **OWB** i launcherem dla OWB **StartOWB**.
+Korzystając z windowsowej przeglądarki ściągnij ze strony [https://axrt.org/download/axrt/4.0/](https://axrt.org/download/axrt/4.0/) najnowsze archiwa z pakietem [**LibAxRT**](https://axrt.org/download/axrt/4.0/packages/libaxrt-4.0_41.12-1_amd64.deb), bibliotekami [**OWB-Libs**](https://axrt.org/download/axrt/4.0/other/OWB-Libs-for-x86_64-axrt.zip), przeglądarką [**OWB**]() i launcherem dla OWB [**StartOWB**](https://axrt.org/download/axrt/4.0/other/StartOWB).
 
 ![axrtWSL3](/assets/img/axrtWSL3.png)
 
@@ -34,7 +34,7 @@ Uruchom terminal z Ubuntu.
 Korzystając z terminala, wykonaj kolejno komendy:
 - rozpakuj pakiet **LibAxRT**
 ```
-sudo dpkg -i ~/libaxrt-4.0_41.10-1_amd64.deb
+sudo dpkg -i ~/libaxrt-4.0_41.12-1_amd64.deb
 ```
 - ustaw uprawnienia dla pliku **StartOWB**
 ```
