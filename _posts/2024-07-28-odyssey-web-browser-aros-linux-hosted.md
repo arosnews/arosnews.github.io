@@ -14,7 +14,9 @@ Uruchom **Software Manager** i doinstaluj pakiet **Uml-utilities**.
 
 ![hosted2](/assets/img/hosted2.png)
 
-Korzystając z linuksowej przeglądarki ściągnij ze strony [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/) najnowsze archiwa z **AROS** oraz **OWB**.
+Korzystając z linuksowej przeglądarki ściągnij najnowsze archiwa z **AROS** oraz **OWB**  
+[https://www.axrt.org/download/aros/v11/AROS-20241102-1-linux-x86_64-system.tar.bz2](https://www.axrt.org/download/aros/v11/AROS-20241102-1-linux-x86_64-system.tar.bz2)  
+[https://archives.aros-exec.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip](https://archives.aros-exec.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip)  
 
 ![hosted4](/assets/img/hosted4.png)
 
