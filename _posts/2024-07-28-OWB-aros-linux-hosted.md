@@ -21,6 +21,10 @@ Using a Linux browser, download the latest archives with **AROS** and **OWB**
 
 Extract the AROS directory from the archive to /home/username/ (where *"username ”* is your username in your Linux home directory).
 
+Download the archive with the **Contrib** files. You can copy everything to your AROS directory, but you only need *pixman.library* from the *Libs* directory to run OWB.  
+
+[https://www.axrt.org/download/aros/v11/AROS-20241102-1-any-x86_64-contrib.tar.bz2](https://www.axrt.org/download/aros/v11/AROS-20241102-1-any-x86_64-contrib.tar.bz2)  
+
 ![hosted5](/assets/img/hosted5.png)
 
 Extract the archive with OWB to any place in the AROS directory structure. I extracted to *AROS/Extras/Networking/Apps/* and renamed the directory from **owb-x86_64** to **OWB**.
