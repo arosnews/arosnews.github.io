@@ -11,7 +11,7 @@ To install Odyssey Web Browser under Linux, we will use the latest distribution 
 
 ![hosted1](/assets/img/hosted1.png)
 
-Using a Linux browser, download the latest archives with the **LibAxRT** package, the **OWB-Libs** libraries, the **OWB** browser and the launcher for OWB **StartOWB** from [https://axrt.org/development/owb/x86_64/](https://axrt.org/development/owb/x86_64/).
+Using a Linux browser, download the latest archives with the [**LibAxRT**](https://axrt.org/download/axrt/4.0/packages/libaxrt-4.0_41.12-1_amd64.deb) package, the [**OWB-Libs**](https://axrt.org/download/axrt/4.0/other/OWB-Libs-for-x86_64-axrt.zip) libraries, the [**OWB**](https://archives.aros-exec.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip) browser and the launcher for OWB [**StartOWB**](https://axrt.org/download/axrt/4.0/other/StartOWB) from [https://axrt.org/download/axrt/4.0/](https://axrt.org/download/axrt/4.0/).
 
 ![axrt1](/assets/img/axrt1.png)
 
@@ -35,6 +35,8 @@ Running any AxRT application will create *SYS* and *Work* directories in the hom
 - Move the **StartOWB** file to the directory with Oddysey Web Browser (*/home/username/Work/owb-x86_64*).
 
 ![axrt5](/assets/img/axrt5.png)
+
+In the owb-x86_64 directory, rename the file “OWB.info.axrt” to “OWB.info”. This will give you an icon with a tooltype that launches OWB using CONCURRENT_JIT.
 
 You can now start Odyssey Web Browser by clicking on **StartOWB**. Note that the first startup of OWB takes longer than usual, as fonts are initialized during this time.
 
