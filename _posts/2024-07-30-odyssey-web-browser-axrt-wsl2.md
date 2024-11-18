@@ -19,6 +19,39 @@ Dodaj nową instancję WSL. Na poniższym screenie widzisz, że ja nazwałem swo
 
 ![axrtWSL2](/assets/img/axrtWSL2.png)
 
+Po pomyślnym zainstalowaniu WSL2 możesz przystąpić do instalacji AxRuntime i Odyssey. Możesz skorzystać z poniższego skruptu, który wykona za ciebie większość czynności. Pobierz go, a nastepnie umieść w katalogu domowym użytkownika w podsystemie linuks (/home/{username}).
+{: .box-note}
+Pobierz gotowe archiwum z plikiem **axrtsetup.sh** i rozpakuj je w katalogu domowym:  
+[axrtsetup.zip](/assets/axrtsetup.zip "download")
+
+Masz dostęp do katalogów WSL z poziomu Exploratora Plików Windows. Katalog *ubuntu* znajduje się po lewej stronie okna Eksploratora plików, pod nazwami dysków. 
+
+![ubuntu](/assets/img/ubuntu.png)
+
+Uruchom terminal z Ubuntu. 
+
+![axrtWSL5](/assets/img/axrtWSL5.png)
+
+- upewnij się, że jesteś w katalogu domowym do którego wypakowałeś plik axrtsetup.sh:
+```
+cd ~
+```
+- ustaw uprawnienia dla pliku **axrtsetup.sh**:
+```
+chmod +x axrtsetup.sh
+```
+- uruchom skrypt i poczekaj na zakończenie instalacji:
+```
+./axrtsetup.sh
+```
+Powninieneś w tej chwili mieć już zainstalowane AxRuntime i przeglądarkę Odyssey gotową do uruchomienia. Przejdź do katalogu z przeglądarką i uruchom ją za pomocą pliku **StartOWB**:
+```
+cd Work/owb-x86_64
+./StartOWB
+```
+
+Alernatywnie, zamiast korzystać ze skryptu, wszystkie kroki możesz wykonać samodzielnie:  
+
 Korzystając z windowsowej przeglądarki ściągnij ze strony [https://axrt.org/download/axrt/4.0/](https://axrt.org/download/axrt/4.0/) najnowsze archiwa z pakietem [**LibAxRT**](https://axrt.org/download/axrt/4.0/packages/libaxrt-4.0_41.12-1_amd64.deb), bibliotekami [**OWB-Libs**](https://axrt.org/download/axrt/4.0/other/OWB-Libs-for-x86_64-axrt.zip), przeglądarką [**OWB**]() i launcherem dla OWB [**StartOWB**](https://axrt.org/download/axrt/4.0/other/StartOWB).
 
 ![axrtWSL3](/assets/img/axrtWSL3.png)
