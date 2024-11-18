@@ -20,6 +20,40 @@ Add a new WSL instance. In the screenshot below you can see that I named my inst
 
 ![axrtWSL2](/assets/img/axrtWSL2.png)
 
+Once you have successfully installed WSL2, you can proceed to install AxRuntime and Odyssey. You can use the script below, which will do most of the work for you. Download it, then place it in your home directory in the linux subsystem (/home/{username}).
+
+{: .box-note}
+Download prepared archive with the file **axrtsetup.sh** and unpack it in your home directory:  
+[axrtsetup.zip](/assets/axrtsetup.zip "download")
+
+You have access to the WSL directories from within Windows File Explorer. The *ubuntu* directory is located on the left side of the File Explorer window, under drive names. 
+
+![ubuntu](/assets/img/ubuntu.png)
+
+Start the terminal with Ubuntu. 
+
+![axrtWSL5](/assets/img/axrtWSL5.png)
+
+- Make sure you are in the home directory to which you extracted the axrtsetup.sh file:
+```
+cd ~
+```
+- set permissions for the **axrtsetup.sh** file:
+```
+chmod +x axrtsetup.sh
+```
+- run the script and wait for the installation to complete:
+```
+./axrtsetup.sh
+```
+You should now have AxRuntime installed and the Odyssey browser ready to run. Navigate to the browser directory and launch it using the **StartOWB** file:
+```
+cd Work/owb-x86_64
+./StartOWB
+```
+
+Alernatively, instead of using the script, you can do all the steps yourself:  
+
 Using a windows browser, download the latest archives with the [**LibAxRT**](https://axrt.org/download/axrt/4.0/packages/libaxrt-4.0_41.12-1_amd64.deb) package, the [**OWB-Libs**](https://axrt.org/download/axrt/4.0/other/OWB-Libs-for-x86_64-axrt.zip) libraries, the [**OWB**](https://archives.aros-exec.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip) browser and the launcher for OWB [**StartOWB**](https://axrt.org/download/axrt/4.0/other/StartOWB) from [https://axrt.org/download/axrt/4.0/](https://axrt.org/download/axrt/4.0/).
 
 ![axrtWSL3](/assets/img/axrtWSL3.png)
@@ -77,21 +111,6 @@ cd Work/owb-x86_64
 ./StartOWB
 ```
 
-You can also create a shortcut on the desktop. Remember to put your own username in the path.
-
-```
-"C:\Program Files\WSL\wslg.exe" -- "/home/username/Work/owb-x86_64/StartOWB"
-```
-
-![axrtWSL12](/assets/img/axrtWSL12.png)
-
-{: .box-success}
-There is a clipboard between the AxRT applications and the hosting system. You can use the clipboard with CTRL+C, CTRL+V on the host side and AMIGA+C, AMIGA+V on the AxRT side.
-
-Feel free to visit the [AROS World](https://www.arosworld.org) forum, where you can ask additional questions about using AROS, AxRT and OWB. You can also report there any performance bugs you encounter.
-  
-![axrtWSL11](/assets/img/axrtWSL11.png)
-
 ## Problems with sound or video playback on YouTube
 
 You may not have sound, for example, when playing YouTube videos. This is because WSLg in its current version supports PulseAudio, but not ALSA. There is a plug-in called libasound2 (ALSA library) that transfers the call from ALSA to PulseAudio. The plug-in is called pulse. So you need to install the plug-in by running the command in the terminal:
@@ -107,4 +126,20 @@ Finally, restart the WSL system.
 
 {: .box-note}
 Download the prepared archive with **.asoundrc** file and extract it in your home directory:  
-[.asoundrc](/assets/asoundrc.zip "download")
+[.asoundrc](/assets/asoundrc.zip "download")  
+
+You can also create a shortcut on the desktop. Remember to put your own username in the path.
+
+```
+"C:\Program Files\WSL\wslg.exe" -- "/home/username/Work/owb-x86_64/StartOWB"
+```
+
+![axrtWSL12](/assets/img/axrtWSL12.png)
+
+{: .box-success}
+There is a clipboard between the AxRT applications and the hosting system. You can use the clipboard with CTRL+C, CTRL+V on the host side and AMIGA+C, AMIGA+V on the AxRT side.
+
+Feel free to visit the [AROS World](https://www.arosworld.org) forum, where you can ask additional questions about using AROS, AxRT and OWB. You can also report there any performance bugs you encounter.
+  
+![axrtWSL11](/assets/img/axrtWSL11.png)
+
