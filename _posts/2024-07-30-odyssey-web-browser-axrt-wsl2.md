@@ -19,7 +19,8 @@ Dodaj nową instancję WSL. Na poniższym screenie widzisz, że ja nazwałem swo
 
 ![axrtWSL2](/assets/img/axrtWSL2.png)
 
-Po pomyślnym zainstalowaniu WSL2 możesz przystąpić do instalacji AxRuntime i Odyssey. Możesz skorzystać z poniższego skruptu, który wykona za ciebie większość czynności. Pobierz go, a nastepnie umieść w katalogu domowym użytkownika w podsystemie linuks (/home/{username}).
+Po pomyślnym zainstalowaniu WSL2 możesz przystąpić do instalacji AxRuntime i Odyssey. Możesz skorzystać z poniższego skryptu, który wykona za ciebie większość czynności. Pobierz go, a nastepnie umieść w katalogu domowym użytkownika w podsystemie linuks (/home/{username}).
+
 {: .box-note}
 Pobierz gotowe archiwum z plikiem **axrtsetup.sh** i rozpakuj je w katalogu domowym:  
 [axrtsetup.zip](/assets/axrtsetup.zip "download")
@@ -108,22 +109,6 @@ Możesz teraz uruchomić Odyssey Web Browser z poziomu terminala. Przejdź do ka
 cd Work/owb-x86_64  
 ./StartOWB
 ```
-
-Możesz też utworzyć skrót na pulpicie. Pamiętaj, aby w ścieżce wpisać swoją własną nazwę użytkownika.
-
-```
-"C:\Program Files\WSL\wslg.exe" -- "/home/username/Work/owb-x86_64/StartOWB"
-```
-
-![axrtWSL12](/assets/img/axrtWSL12.png)
-
-{: .box-success}
-Pomiędzy aplikacjami AxRT, a systemem hostującym działa schowek. Możesz używać schowka za pomocą CTRL+C, CTRL+V po stronie hosta oraz AMIGA+C, AMIGA+V po stronie AxRT.
-
-Zapraszam na forum [AROS World](https://www.arosworld.org), gdzie możesz zadać dodatkowe pytania na temat użytkowania AROSa, AxRT i OWB. Możesz też tam zgłaszać napotkane błędy w działaniu.
-  
-![axrtWSL11](/assets/img/axrtWSL11.png)
-
 ## Problemy z odtwarzaniem dźwięku lub wideo na YouTube
 
 Możesz nie mieć dźwięku, np. podczas odtwarzania filmów na YouTube. Dzieje się tak dlatego, że WSLg w obecnej wersji obsługuje PulseAudio, ale nie ALSA. Istnieje wtyczka libasound2 (biblioteka ALSA), która przenosi połączenie z ALSA na PulseAudio. Wtyczka nazywa się pulse. Musisz więc zainstalować wtyczkę, uruchamiając w terminalu polecenie:
@@ -140,4 +125,20 @@ Na koniec należy zrestartować system WSL.
 {: .box-note}
 Pobierz gotowe archiwum z plikiem **.asoundrc** i rozpakuj je w katalogu domowym:  
 [.asoundrc](/assets/asoundrc.zip "download")
+
+
+Możesz też utworzyć skrót na pulpicie Windows. Pamiętaj, aby w ścieżce wpisać swoją własną nazwę użytkownika.
+
+```
+"C:\Program Files\WSL\wslg.exe" -- "/home/username/Work/owb-x86_64/StartOWB"
+```
+
+![axrtWSL12](/assets/img/axrtWSL12.png)
+
+{: .box-success}
+Pomiędzy aplikacjami AxRT, a systemem hostującym działa schowek. Możesz używać schowka za pomocą CTRL+C, CTRL+V po stronie hosta oraz AMIGA+C, AMIGA+V po stronie AxRT.
+
+Zapraszam na forum [AROS World](https://www.arosworld.org), gdzie możesz zadać dodatkowe pytania na temat użytkowania AROSa, AxRT i OWB. Możesz też tam zgłaszać napotkane błędy w działaniu.
+  
+![axrtWSL11](/assets/img/axrtWSL11.png)
 
