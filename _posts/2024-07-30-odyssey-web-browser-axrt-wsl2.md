@@ -45,7 +45,7 @@ chmod +x axrtsetup.sh
 ```
 ./axrtsetup.sh
 ```
-Powninieneś w tej chwili mieć już zainstalowane AxRuntime i przeglądarkę Odyssey gotową do uruchomienia. Przejdź do katalogu z przeglądarką i uruchom ją za pomocą pliku **StartOWB**:
+Powinieneś w tej chwili mieć już zainstalowane AxRuntime i przeglądarkę Odyssey gotową do uruchomienia. Przejdź do katalogu z przeglądarką i uruchom ją za pomocą pliku **StartOWB**:
 ```
 cd Work/owb-x86_64
 ./StartOWB
