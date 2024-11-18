@@ -19,7 +19,7 @@ Dodaj nową instancję WSL. Na poniższym screenie widzisz, że ja nazwałem swo
 
 ![axrtWSL2](/assets/img/axrtWSL2.png)
 
-Po pomyślnym zainstalowaniu WSL2 możesz przystąpić do instalacji AxRuntime i Odyssey. Możesz skorzystać z poniższego skryptu, który wykona za ciebie większość czynności. Pobierz go, a nastepnie umieść w katalogu domowym użytkownika w podsystemie linuks (/home/{username}).
+Po pomyślnym zainstalowaniu WSL2 możesz przystąpić do instalacji AxRuntime i Odyssey. Możesz skorzystać z poniższego skryptu, który wykona za ciebie większość czynności. Pobierz go, a następnie umieść w katalogu domowym użytkownika w podsystemie linuks (/home/{username}).
 
 {: .box-note}
 Pobierz gotowe archiwum z plikiem **axrtsetup.sh** i rozpakuj je w katalogu domowym:  
