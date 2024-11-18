@@ -92,7 +92,7 @@ Feel free to visit the [AROS World](https://www.arosworld.org) forum, where you 
   
 ![axrtWSL11](/assets/img/axrtWSL11.png)
 
-## Problems with sound?
+## Problems with sound or video playback on YouTube
 
 You may not have sound, for example, when playing YouTube videos. This is because WSLg in its current version supports PulseAudio, but not ALSA. There is a plug-in called libasound2 (ALSA library) that transfers the call from ALSA to PulseAudio. The plug-in is called pulse. So you need to install the plug-in by running the command in the terminal:
 ```
