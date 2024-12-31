@@ -36,7 +36,7 @@ Obie dystrybucje używają obecnie Wanderera jako domyślnego pulpitu.
 
 Lista rekomendowanego sprzętu dla AROSa wzbogaciła się o dwie płyty główne: **ASUS P8Z68-V LX** oraz **Gigabyte GA-MA770T UD3/UD3P**. Moim zdaniem warto przyjrzeć się konstrukcji ASUSa. Na tę chwilę jest to najnowszy i najmocniejszy sprzęt z listy rekomendowanych, niedrogi i szeroko dostępny w serwisach aukcyjnych. Jeśli planujesz zakup sprzętu pod AROSa będzie to najlepszy wybór. Rekomendowane płyty mają zapewnione długoterminowe wsparcie, wszystkie nowe wydania AROSa będą testowane pod względem kompatybilności z nimi.
 
-Do sprzedaży trafił **A600GS**. Na sprzęcie zainstalowany jest system Amibench, który jest zmodyfikowaną wersją AROSa m68k.
+Do sprzedaży trafił **A600GS**. Na sprzęcie zainstalowany jest system Amibench, który wykorzystuje wersję AROSa m68k.
 
 ### Dla programistów
 
