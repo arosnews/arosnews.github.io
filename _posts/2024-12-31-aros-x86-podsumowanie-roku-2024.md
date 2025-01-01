@@ -40,7 +40,7 @@ Do sprzedaży trafił **A600GS**. Na sprzęcie zainstalowany jest system Amibenc
 
 ### Dla programistów
 
-Hollywood cieszy się niesłabnącą popularnością wśród twórców oprogramowania dla Amigi NG. w 2024 na AROSa wyszedł **Hollywood Designer 7.0** - nakładka wspomagająca tworzenie prezentacji, gier i aplikacji. Od wydania poprzedniej wersji minęły dwa lata i przez ten czas autor wprowadził wiele ulepszeń. Program do działania wymaga pakietu Hollywood w wersji 10.0. Zarówno Hollywood jak i Hollywood Designer są oprogramowaniem komercyjnym.
+Hollywood cieszy się niesłabnącą popularnością wśród twórców oprogramowania dla Amigi NG. W 2024 na AROSa wyszedł **Hollywood Designer 7.0** - nakładka wspomagająca tworzenie prezentacji, gier i aplikacji. Od wydania poprzedniej wersji minęły dwa lata i przez ten czas autor wprowadził wiele ulepszeń. Program do działania wymaga pakietu Hollywood w wersji 10.0. Zarówno Hollywood jak i Hollywood Designer są oprogramowaniem komercyjnym.
 
 Dzięki **Serk118** otrzymaliśmy biblioteki **GLFW 3.4** i **Raylib 5.0**. GLFW umożliwia tworzenie aplikacji OpenGL i OpenGL ES. Zapewnia proste, niezależne od platformy API do tworzenia okien, kontekstów i powierzchni, odczytu danych wejściowych, obsługi zdarzeń itp. Z kolei Raylib to prosta i łatwa w użyciu biblioteka do programowania gier wideo wykorzystująca GLFW. Otwiera to nowe pole do portowania i tworzenia oprogramowania dla AROS.
 
