@@ -54,7 +54,7 @@ cd Work/owb-x86_64
 
 Alernatively, instead of using the script, you can do all the steps yourself:  
 
-Using a windows browser, download the latest archives with the [**LibAxRT**](https://axrt.org/download/axrt/4.0/packages/libaxrt-4.0_41.12-1_amd64.deb) package, the [**OWB-Libs**](https://axrt.org/download/axrt/4.0/other/OWB-Libs-for-x86_64-axrt.zip) libraries, the [**OWB**](https://archives.aros-exec.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip) browser and the launcher for OWB [**StartOWB**](https://axrt.org/download/axrt/4.0/other/StartOWB) from [https://axrt.org/download/axrt/4.0/](https://axrt.org/download/axrt/4.0/).
+Using a windows browser, download the latest archives with the [**LibAxRT**](https://axrt.org/download/axrt/4.0/packages/libaxrt-4.0_41.12-1_amd64.deb) package, the [**OWB-Libs**](https://axrt.org/download/axrt/4.0/other/OWB-Libs-for-x86_64-axrt.zip) libraries, the [**OWB**](https://archives.arosworld.org/share/network/browser/owb-2.1.x86_64-aros-v11.zip) browser and the launcher for OWB [**StartOWB**](https://axrt.org/download/axrt/4.0/other/StartOWB) from [https://axrt.org/download/axrt/4.0/](https://axrt.org/download/axrt/4.0/).
 
 ![axrtWSL3](/assets/img/axrtWSL3.png)
 
