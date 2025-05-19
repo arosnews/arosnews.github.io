@@ -3,7 +3,14 @@ layout: page
 title: AROS Portable
 ---
 
-We’re excited to announce the release of a new portable AROS distribution, designed to run directly from a USB stick. This project was created for users who want to explore AROS without the need to install it on a hard drive or invest in dedicated hardware.
+AROS portalble is designed to run directly from a USB stick. This project was created for users who want to explore AROS without the need to install it on a hard drive or invest in dedicated hardware.
+
+
+Download links:  
+AROS Portable (base on AROS ONE 2.9 32-bit) ([Server 1](https://drive.google.com/file/d/1tGkKhIzgl9chCTA3hTQdpuGIq7ifJSfF/view?usp=drive_link)), ([Server 2](https://axrt.org/download/arosq/v0/20250517-arosoneq.img.7z))  
+AROS Portalble (base on AROS ONE 1.0 64-bit)
+
+The image should be written to a flash drive of at least 16GB (under Windows, for example, using Rufus).
 
 Watch the system in action:
 
@@ -31,8 +38,3 @@ What does it offer?
 - A ready-to-use graphical environment upon launch,
 - User experience similar to that of dedicated hardware.
 
-Download links:
-https://drive.google.com/file/d/1tGkKhIzgl9chCTA3hTQdpuGIq7ifJSfF/view?usp=drive_link
-https://axrt.org/download/arosq/v0/20250517-arosoneq.img.7z
-
-The image should be written to a flash drive of at least 16GB (under Windows, for example, using Rufus).
