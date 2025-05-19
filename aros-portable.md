@@ -14,7 +14,7 @@ The image should be written to a flash drive of at least 16GB (under Windows, fo
 
 Watch the system in action:
 
-<iframe width="857" height="482" src="https://www.youtube.com/embed/0OeMbB2rGXc" title="AROS - a new portable distribution" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="480" src="https://www.youtube.com/embed/0OeMbB2rGXc" title="AROS - a new portable distribution" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Who is this for?
 
