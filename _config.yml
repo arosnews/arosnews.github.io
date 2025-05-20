@@ -21,7 +21,7 @@ author: Andrzej “retrofaza” Subocz
 
 navbar-links:
   Distributions:
-    - ABIv0: "https://github.com/deadwood2/AROS/releases/tag/ABIv0_20250313-1"   
+    - ABIv11: "https://github.com/deadwood2/AROS/releases/tag/ABIv11_20250418-1"   
     - AROS One x86: "https://sites.google.com/view/arosone"
     - Tiny AROS: "http://www.tinyaros.it"
   AROS Sites:  
@@ -30,9 +30,9 @@ navbar-links:
     - AROS Wiki: "https://en.wikibooks.org/wiki/Aros"
     - AROS.org: "http://www.aros.org"
     - DEV Resources: "https://www.arosworld.org/infusions/forum/viewthread.php?thread_id=1201"
-  ROADMAP: "https://www.arosworld.org/infusions/forum/viewthread.php?thread_id=1114&rowstart=40&pid=8166#post_8156"  
+    - ROADMAP: "https://www.arosworld.org/infusions/forum/viewthread.php?thread_id=1114&rowstart=40&pid=8166#post_8156"  
   Tutorials: "/tutorials"  
-  Download: "/download"
+  AROS Portable: "/aros-portable"
   
 
 ################
