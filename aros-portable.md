@@ -30,7 +30,8 @@ System requirements:
 
 - A reasonably modern x86_64 (64-bit) computer,
 - USB 3.0 support (both host and USB stick),
-- A 1920×1080 display.
+- A 1920×1080 display,
+- Processor virtualization option (usually Intel VT-x, “Intel Virtualization Technology” or AMD-V, “SVM Mode”) available in BIOS/UEFI and enabled.
 
 What does it offer?
 
