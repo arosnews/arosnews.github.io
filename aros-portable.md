@@ -5,7 +5,7 @@ title: AROS Portable
 
 AROS portalble is designed to run directly from a USB stick. This project was created for users who want to explore AROS without the need to install it on a hard drive or invest in dedicated hardware.
 
-
+{: .box-note}
 Download links:  
 AROS Portable (based on **AROS One 2.8 32-bit**) ([Server 1](https://drive.google.com/file/d/1tGkKhIzgl9chCTA3hTQdpuGIq7ifJSfF/view?usp=drive_link)), ([Server 2](https://axrt.org/download/arosq/v0/20250517-arosoneq.img.7z))  
 AROS Portable (based on **AROS One 1.0 64-bit**)
