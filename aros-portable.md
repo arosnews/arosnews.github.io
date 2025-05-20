@@ -3,7 +3,7 @@ layout: page
 title: AROS Portable
 ---
 
-AROS portalble is designed to run directly from a USB stick. This project was created for users who want to explore AROS without the need to install it on a hard drive or invest in dedicated hardware.
+AROS portable is designed to run directly from a USB stick. This project was created for users who want to explore AROS without the need to install it on a hard drive or invest in dedicated hardware.
 
 {: .box-note}
 Download links:  
