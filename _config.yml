@@ -24,6 +24,7 @@ navbar-links:
     - ABIv11: "https://github.com/deadwood2/AROS/releases/tag/ABIv11_20250418-1"   
     - AROS One x86: "https://sites.google.com/view/arosone"
     - Tiny AROS: "http://www.tinyaros.it"
+    - AROS Portable: "/aros-portable"
   AROS Sites:  
     - AROS World: "https://www.arosworld.org"
     - AROS Archives: "https://archives.arosworld.org"
@@ -31,8 +32,8 @@ navbar-links:
     - AROS.org: "http://www.aros.org"
     - DEV Resources: "https://www.arosworld.org/infusions/forum/viewthread.php?thread_id=1201"
     - ROADMAP: "https://www.arosworld.org/infusions/forum/viewthread.php?thread_id=1114&rowstart=40&pid=8166#post_8156"  
-  Tutorials: "/tutorials"  
-  AROS Portable: "/aros-portable"
+  Tutorials: "/tutorials"    
+  ❤ Support: "https://www.paypal.com/paypalme/4deadwood"
   
 
 ################
