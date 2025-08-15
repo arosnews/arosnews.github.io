@@ -44,7 +44,7 @@ Od strony Windows masz łatwy dostęp do systemu plików Ubuntu wpisując w Eksp
 
 Zainstaluj wszystkie potrzebne pakiety. Możesz to zrobić jedną komendą:
 ```
-sudo apt install git gcc g++ make gawk bison flex bzip2 netpbm autoconf automake libx11-dev libxext-dev libc6-dev liblzo2-dev libxxf86vm-dev libpng-dev gcc-multilib libsdl1.2-dev byacc python3-mako libxcursor-dev cmake genisoimage dh-make unzip
+sudo apt install git gcc g++ make gawk bison flex bzip2 netpbm autoconf automake libx11-dev libxext-dev libc6-dev liblzo2-dev libxxf86vm-dev libpng-dev gcc-multilib libsdl1.2-dev byacc python3-mako libxcursor-dev cmake genisoimage dh-make unzip nasm
 ```
 Na potrzeby tej instalacji załóż w swoim katalogu użytkownika w Ubuntu katalog *myprojects*, a w nim katalog *arosbuilds*. Następnie sklonuj repozytorium AROS z githuba **deadwood**'a i skopiuj plik *rebuild.sh* z katalogu *AROS* do katalogu *arosbuilds*. Poniżej ciąg komend którymi to zrobisz:
 
