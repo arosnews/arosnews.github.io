@@ -44,7 +44,7 @@ From the Windows side, you have easy access to the Ubuntu file system by typing 
 
 Install all the required packages. You can do this with one command:
 ```
-sudo apt install git gcc g++ make gawk bison flex bzip2 netpbm autoconf automake libx11-dev libxext-dev libc6-dev liblzo2-dev libxxf86vm-dev libpng-dev gcc-multilib libsdl1.2-dev byacc python3-mako libxcursor-dev cmake genisoimage dh-make unzip
+sudo apt install git gcc g++ make gawk bison flex bzip2 netpbm autoconf automake libx11-dev libxext-dev libc6-dev liblzo2-dev libxxf86vm-dev libpng-dev gcc-multilib libsdl1.2-dev byacc python3-mako libxcursor-dev cmake genisoimage dh-make unzip nasm
 ```
 For the purposes of this installation, create a directory *myprojects* in your user directory in Ubuntu, and in it a directory *arosbuilds*. Then clone the AROS repository from **deadwood**’s github and copy the *rebuild.sh* file from the AROS directory to the *arosbuilds* directory. Below is a sequence of commands to do this:
 
