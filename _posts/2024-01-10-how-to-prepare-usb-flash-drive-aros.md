@@ -1,13 +1,13 @@
 ---
 layout: post
 title: How to prepare a USB flash drive
-subtitle: with AROS ABIv0
+subtitle: with AROS ABIv11
 lang: en
 tag: tutorial
 ref: tutPendrive
 ---
 
-You can download AROS ABIv0 as an .iso file and prepare a bootable CD from it. But what if we do not have a CD drive in our machine with AROS, or for other reasons we prefer to create a bootable USB flash drive with the system? Nothing simpler - just install AROS on the USB drive in a similar way as if you were installing it on a hard drive. The best way to do this is to use a virtual machine.
+You can download AROS ABIv11 as an .iso file and prepare a bootable CD from it. But what if we do not have a CD drive in our machine with AROS, or for other reasons we prefer to create a bootable USB flash drive with the system? Nothing simpler - just install AROS on the USB drive in a similar way as if you were installing it on a hard drive. The best way to do this is to use a virtual machine.
 
 ## Step 1: Download and install VirtualBox
 
