@@ -46,7 +46,7 @@ Klikamy w ikonę InstallAROS. W oknie instalatora zaznaczamy *Wipe disk*, a w **
 
 ![Install](/assets/img/64pend10__.png)
 
-Po resecie wirtualnej maszyny ponownie odpalamy InstallAROS tym razem zaznaczamy opcję *Use existing AROS partitions (on any drive)*.
+Po resecie wirtualnej maszyny ponownie odpalamy InstallAROS tym razem zaznaczamy opcję *Use existing AROS partitions*.
 
 ![Install](/assets/img/64pend11__.png)
 
