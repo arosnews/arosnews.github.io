@@ -17,7 +17,7 @@ VirtualBox is a free and open source program for creating and running virtual ma
 
 ![Install](/assets/img/64pend2__.png)
 
-Click the **New** button to create a new virtual machine. Point to our downloaded .iso file with AROS ABIv0, select *Other* in the **Type:** field and **Version:** *Other/Unknown (64-bit)* in the Version field.
+Click the **New** button to create a new virtual machine. Point to our downloaded .iso file with AROS ABIv11, select *Other* in the **Type:** field and **Version:** *Other/Unknown (64-bit)* in the Version field.
 
 ![Install](/assets/img/64pend3__.png)
 
