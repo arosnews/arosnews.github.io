@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jak zmienić Język Systemu
-subtitle: w AROS ABIv0 32-bit
+subtitle: w AROS ABIv11 64-bit
 lang: pl
 ref: tutL
 ---
@@ -11,7 +11,7 @@ Pokażę kroki na przykładzie języka polskiego. W przypadku innych języków p
 
 ## Krok 1: FTManager i instalacja czcionek
 
-**FreeType Font Manager** pozwala nam zainstalować w systemie czcionki True Type z odpowiednią stroną kodową. W przypadku języka polskiego będzie to *ISO-8859-2*, gdyż takiej strony kodowej używa polska lokalizacja. Wraz z ABIv0 32-bit otrzymujemy zestaw czcionek True Type zlokalizowanych w *AROS:Fonts/TrueType/*.
+**FreeType Font Manager** pozwala nam zainstalować w systemie czcionki True Type z odpowiednią stroną kodową. W przypadku języka polskiego będzie to *ISO-8859-2*, gdyż takiej strony kodowej używa polska lokalizacja. Wraz z ABIv11 64-bit otrzymujemy zestaw czcionek True Type zlokalizowanych w *AROS:Fonts/TrueType/*.
 
 ![TrueType](/assets/img/lang3.jpg)
 
@@ -42,7 +42,7 @@ Kierujemy się do *AROS:Prefs/Input* gdzie zmienimy mapowanie klawiatury na przy
 
 ![Input](/assets/img/lang1.jpg)
 
-Przechodzimy do *AROS:Prefs/Locale*. W **Region** wybieramy *"Polska"*, a w **Preferred Language** *"Polski"*. W polu **Default character set** wybieramy *ISO-8859-2*, gdyż takiej strony kodowej używa polska lokalizacja w ABiv0 32-bit. Jeśli mamy ustawione wszystko jak na poniższym screenie naciskamy *"Save"*.
+Przechodzimy do *AROS:Prefs/Locale*. W **Region** wybieramy *"Polska"*, a w **Preferred Language** *"Polski"*. W polu **Default character set** wybieramy *ISO-8859-2*, gdyż takiej strony kodowej używa polska lokalizacja w ABiv11 64-bit. Jeśli mamy ustawione wszystko jak na poniższym screenie naciskamy *"Save"*.
 
 ![Locale](/assets/img/lang2.jpg)
 
