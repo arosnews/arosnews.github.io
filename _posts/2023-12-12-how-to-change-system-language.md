@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to change System language
-subtitle: in AROS ABIv0 32-bit
+subtitle: in AROS ABIv11 64-bit
 lang: en
 tag: tutorial
 ref: tutL
@@ -12,7 +12,7 @@ I’ll walk you through the process using the example of the Polish language. Th
 
 ## Step 1: FTManager and Font Installation
 
-**FreeType Font Manager** allows us to install TrueType fonts in the system with the correct character encoding. For the Polish language, we’ll use *ISO-8859-2*, as that’s the character encoding used by the Polish localization. With ABIv0 32-bit, we receive a set of TrueType fonts located in *AROS:Fonts/TrueType/*.
+**FreeType Font Manager** allows us to install TrueType fonts in the system with the correct character encoding. For the Polish language, we’ll use *ISO-8859-2*, as that’s the character encoding used by the Polish localization. With ABIv11 64-bit, we receive a set of TrueType fonts located in *AROS:Fonts/TrueType/*.
 
 ![TrueType](/assets/img/lang3.jpg)
 
@@ -44,7 +44,7 @@ Navigate to *AROS:Prefs/Input*, where we’ll change the keyboard mapping to one
 
 ![Input](/assets/img/lang1.jpg)
 
-Next, go to *AROS:Prefs/Locale*. In the **Region** section, select *“Polska”*, and in **Preferred Language**, choose *“Polski”*. For the **Default character set**, select *ISO-8859-2*, as this is the character encoding used by the Polish localization in ABIv0 32-bit. If everything is set as shown in the screenshot below, click *“Save”*.
+Next, go to *AROS:Prefs/Locale*. In the **Region** section, select *“Polska”*, and in **Preferred Language**, choose *“Polski”*. For the **Default character set**, select *ISO-8859-2*, as this is the character encoding used by the Polish localization in ABIv11 64-bit. If everything is set as shown in the screenshot below, click *“Save”*.
 
 ![Locale](/assets/img/lang2.jpg)
 
