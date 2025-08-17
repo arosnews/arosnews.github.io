@@ -47,7 +47,7 @@ Click on the InstallAROS icon. In the installer window, select *Wipe disk*, and 
 
 ![Install](/assets/img/64pend10__.png)
 
-After resetting the virtual machine, click InstallAROS again, this time check *Use existing AROS partitions (on any drive)*.
+After resetting the virtual machine, click InstallAROS again, this time check *Use existing AROS partitions*.
 
 ![Install](/assets/img/64pend11__.png)
 
