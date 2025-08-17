@@ -16,7 +16,7 @@ VirtualBox to darmowy i otwarty program do tworzenia i uruchamiania wirtualnych 
 
 ![Install](/assets/img/64pend2__.png)
 
-Klikamy przycisk *New* w celu utwrzenia nowej maszyny wirtualnej. Wskazujemy nasz pobrany plik .iso z AROS ABIv0, w polu **Type:** wybieramy *Other*, a w polu **Version:** *Other/Unknown (64-bit)*.
+Klikamy przycisk *New* w celu utwrzenia nowej maszyny wirtualnej. Wskazujemy nasz pobrany plik .iso z AROS ABIv11, w polu **Type:** wybieramy *Other*, a w polu **Version:** *Other/Unknown (64-bit)*.
 
 ![Install](/assets/img/64pend3__.png)
 
