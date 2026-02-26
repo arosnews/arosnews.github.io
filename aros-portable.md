@@ -8,7 +8,7 @@ AROS portable is designed to run directly from a USB stick. This project was cre
 {: .box-note}
 Download links:  
 AROS Portable (based on **AROS One 2.8 32-bit**) ([Server 1](https://drive.google.com/file/d/1tGkKhIzgl9chCTA3hTQdpuGIq7ifJSfF/view?usp=drive_link)), ([Server 2](https://axrt.org/download/arosq/v0/20250517-arosoneq.img.7z))  
-AROS Portable (based on **AROS One 1.3 64-bit**) ([Server 1](https://drive.google.com/file/d/1EZa5KVn12DTsKI0Cr2mpIjX-g1oGVXSu/view?usp=sharing))
+AROS Portable (based on **AROS One 1.3 64-bit**) ([Server 1](https://drive.google.com/file/d/1EZa5KVn12DTsKI0Cr2mpIjX-g1oGVXSu/view?usp=sharing)) ([Server 2](https://axrt.org/download/arosq/v11/20260225-arosportable64.img.7z))
 
 The image should be written to a flash drive of at least 16GB (under Windows, for example, using Rufus).
 
