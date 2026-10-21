@@ -3,7 +3,7 @@ layout: page
 title: AROS.games Portable
 ---
 
-AROS portable is designed to run directly from a USB stick. This project was created for users who want to explore AROS without the need to install it on a hard drive or invest in dedicated hardware.
+AROS.games Portable is designed to run directly from a USB stick. This project was created for users who want to explore AROS without the need to install it on a hard drive or invest in dedicated hardware.
 
 {: .box-note}
 Download links:  
@@ -13,7 +13,7 @@ The image should be written to a flash drive of at least 16GB (under Windows, fo
 
 Watch the system in action:
 
-<iframe width="700" height="480" src="https://www.youtube-nocookie.com/embed/ieacM06RHA8" title="AROS Portable Games - How to install?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="480" src="https://www.youtube-nocookie.com/embed/ieacM06RHA8" title="AROS.games Portable - How to install?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Who is this for?
 
