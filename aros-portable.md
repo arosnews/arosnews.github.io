@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AROS Portable
+title: AROS.games Portable
 ---
 
 AROS portable is designed to run directly from a USB stick. This project was created for users who want to explore AROS without the need to install it on a hard drive or invest in dedicated hardware.
