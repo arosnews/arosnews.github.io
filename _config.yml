@@ -20,16 +20,15 @@ author: Andrzej “retrofaza” Subocz
 ###############################################
 
 navbar-links:
-  Distributions:
-    - ABIv11: "https://github.com/deadwood2/AROS/releases/tag/ABIv11_20250418-1"   
+  Distributions:      
+    - AROS.games: "https://aros.games"
+    - AROS.games Portable: "/aros-portable"
     - AROS One x86: "https://sites.google.com/view/arosone"
-    - Tiny AROS: "http://www.tinyaros.it"
-    - AROS Portable: "/aros-portable"
   AROS Sites:  
+    - AROS.org: "http://www.aros.org"
     - AROS World: "https://www.arosworld.org"
     - AROS Archives: "https://archives.arosworld.org"
     - AROS Wiki: "https://en.wikibooks.org/wiki/Aros"
-    - AROS.org: "http://www.aros.org"
     - DEV Resources: "https://www.arosworld.org/infusions/forum/viewthread.php?thread_id=1201"
     - ROADMAP: "https://arosworld.org/infusions/forum/viewthread.php?thread_id=1114&rowstart=40&pid=12969#post_12969"  
   Tutorials: "/tutorials"    
