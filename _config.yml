@@ -32,7 +32,9 @@ navbar-links:
     - DEV Resources: "https://www.arosworld.org/infusions/forum/viewthread.php?thread_id=1201"
     - ROADMAP: "https://arosworld.org/infusions/forum/viewthread.php?thread_id=1114&rowstart=40&pid=12969#post_12969"  
   Tutorials: "/tutorials"    
-  ❤ Support: "https://www.paypal.com/paypalme/4deadwood"
+  ❤ Support:
+    - Deadwood: "https://www.paypal.com/paypalme/4deadwood"
+    - Kalamatee: "https://www.paypal.com/paypalme/kalamatee"
   
 
 ################
