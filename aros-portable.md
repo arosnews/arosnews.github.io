@@ -7,7 +7,7 @@ AROS.games Portable is designed to run directly from a USB stick. This project w
 
 {: .box-note}
 Download links:  
-AROS.games Portable ([Server 1](https://drive.google.com/file/d/13puMGFRGjNyfp3YLyHm5gunZKajiAk6K/view?usp=sharing))
+AROS.games Portable ([Server 1](https://drive.google.com/file/d/1JaxnH2R0fOS4cwMtht3yB-b7nhAPvrgZ/view?usp=sharing))
 
 The image should be written to a flash drive of at least 16GB (under Windows, for example, using Rufus).
 
